@@ -1,0 +1,99 @@
+{
+  "purpose": "internal audit only: group checks, per-row keep/drop decisions and cost; not for publication",
+  "publicFile": "tmp/pub.csv",
+  "steps": [
+    1,
+    0
+  ],
+  "cost": 1,
+  "suppressed": 0,
+  "kept": 4,
+  "minGroupSize": 2,
+  "minDistinctSensitive": 2,
+  "budget": 4,
+  "groups": [
+    {
+      "key": [
+        "old",
+        "sh"
+      ],
+      "size": 2,
+      "distinctSensitive": 2,
+      "ok": true,
+      "suppressed": false,
+      "recordIds": [
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "key": [
+        "young",
+        "bj"
+      ],
+      "size": 2,
+      "distinctSensitive": 2,
+      "ok": true,
+      "suppressed": false,
+      "recordIds": [
+        "r1",
+        "r2"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "id": "r1",
+      "kept": true,
+      "groupKey": [
+        "young",
+        "bj"
+      ],
+      "groupOk": true,
+      "generalized": [
+        "young",
+        "bj"
+      ]
+    },
+    {
+      "id": "r2",
+      "kept": true,
+      "groupKey": [
+        "young",
+        "bj"
+      ],
+      "groupOk": true,
+      "generalized": [
+        "young",
+        "bj"
+      ]
+    },
+    {
+      "id": "r3",
+      "kept": true,
+      "groupKey": [
+        "old",
+        "sh"
+      ],
+      "groupOk": true,
+      "generalized": [
+        "old",
+        "sh"
+      ]
+    },
+    {
+      "id": "r4",
+      "kept": true,
+      "groupKey": [
+        "old",
+        "sh"
+      ],
+      "groupOk": true,
+      "generalized": [
+        "old",
+        "sh"
+      ]
+    }
+  ],
+  "disclaimer": "guarantees hold only under this task's stated model (k-group size and l-distinct sensitive values on the chosen quasi-identifiers); re-identification via other channels is not excluded"
+}
