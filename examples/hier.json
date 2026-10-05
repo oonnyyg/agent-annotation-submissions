@@ -1,0 +1,6 @@
+{
+  "hierarchies": {
+    "age": {"a1": "young", "a2": "young", "a3": "old", "a4": "old", "young": "*", "old": "*"},
+    "city": {"bj": "north", "tj": "north", "sh": "south", "sz": "south", "north": "*", "south": "*"}
+  }
+}

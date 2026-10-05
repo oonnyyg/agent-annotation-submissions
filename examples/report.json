@@ -1,0 +1,68 @@
+{
+  "purpose": "内部核查报告：记录分组检查、逐行去留与成本，仅供内部审计，不得对外发布",
+  "mode": "anonymize",
+  "qiColumns": [
+    "age",
+    "city"
+  ],
+  "config": {
+    "k": 2,
+    "l": 2,
+    "budget": 10,
+    "weights": {
+      "age": 1,
+      "city": 1
+    },
+    "suppressionCost": 3
+  },
+  "result": {
+    "steps": [
+      1,
+      1
+    ],
+    "feasible": true,
+    "suppressed": 0,
+    "kept": 4,
+    "generalizationCost": 2,
+    "suppressionCost": 0,
+    "totalCost": 2,
+    "groups": [
+      {
+        "key": [
+          "old",
+          "south"
+        ],
+        "size": 2,
+        "distinctSens": 2,
+        "kept": true
+      },
+      {
+        "key": [
+          "young",
+          "north"
+        ],
+        "size": 2,
+        "distinctSens": 2,
+        "kept": true
+      }
+    ],
+    "rows": [
+      {
+        "id": "r1",
+        "suppressed": false
+      },
+      {
+        "id": "r2",
+        "suppressed": false
+      },
+      {
+        "id": "r3",
+        "suppressed": false
+      },
+      {
+        "id": "r4",
+        "suppressed": false
+      }
+    ]
+  }
+}

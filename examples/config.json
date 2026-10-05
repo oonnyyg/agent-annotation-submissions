@@ -1,0 +1,7 @@
+{
+  "k": 2,
+  "l": 2,
+  "budget": 10,
+  "weights": {"age": 1, "city": 1},
+  "suppressionCost": 3
+}
