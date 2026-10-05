@@ -1,0 +1,10 @@
+{
+  "allele_frequency": 0.4,
+  "error_rate": 0.05,
+  "individuals": [
+    {"id": "calf", "parents": ["dam", "sire"], "observation": "AB"},
+    {"id": "dam", "observation": "AB"},
+    {"id": "sire"}
+  ],
+  "predict_offspring": ["dam", "sire"]
+}
