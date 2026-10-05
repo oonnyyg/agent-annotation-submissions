@@ -1,0 +1,10 @@
+{
+  "initial_inventory": 0.0,
+  "cumulative_inflow": 10.000000000000004,
+  "cumulative_outflow": 6.6679851997858215,
+  "cumulative_decay": 3.27935346216391,
+  "final_inventory": 0.05266133805028891,
+  "inventory_from_state": 0.05266133805027767,
+  "residual": -1.7062740109707875e-14,
+  "relative_residual": -1.7062740109707838e-15
+}
