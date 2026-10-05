@@ -1,0 +1,9 @@
+{
+  "allele_freq": 0.5,
+  "error_rate": 0.05,
+  "individuals": [
+    {"id": "calf", "parents": ["sire", "dam"], "observation": "BB"},
+    {"id": "sire", "observation": "AB"},
+    {"id": "dam"}
+  ]
+}
