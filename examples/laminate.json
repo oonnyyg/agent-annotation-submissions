@@ -1,0 +1,32 @@
+{
+  "materials": [
+    {
+      "name": "T300/5208",
+      "E1": 181e9,
+      "E2": 10.3e9,
+      "nu12": 0.28,
+      "G12": 7.17e9,
+      "alpha1": 0.02e-6,
+      "alpha2": 22.5e-6
+    }
+  ],
+  "layup": [
+    {"material": "T300/5208", "angle_deg": 0.0, "thickness": 0.125e-3},
+    {"material": "T300/5208", "angle_deg": 45.0, "thickness": 0.125e-3},
+    {"material": "T300/5208", "angle_deg": -45.0, "thickness": 0.125e-3},
+    {"material": "T300/5208", "angle_deg": 90.0, "thickness": 0.125e-3}
+  ],
+  "cases": [
+    {
+      "name": "tension_plus_cooldown",
+      "loads": {"Nx": 10000.0, "Ny": 0.0, "Nxy": 0.0,
+                "Mx": 0.0, "My": 0.0, "Mxy": 0.0},
+      "delta_T": -125.0
+    },
+    {
+      "name": "free_cooldown",
+      "loads": {},
+      "delta_T": -125.0
+    }
+  ]
+}
