@@ -1,0 +1,151 @@
+{
+  "span": {
+    "x1": 0.0,
+    "y1": 12.0,
+    "x2": 80.0,
+    "y2": 18.0
+  },
+  "linear_density": 1.2,
+  "gravity": 9.81,
+  "weight_per_length": 11.772,
+  "limits": {
+    "max_tension": 600.0,
+    "min_clearance": 2.0
+  },
+  "scenarios": [
+    {
+      "length": 85.0,
+      "ok": true,
+      "checks": {
+        "max_tension": {
+          "limit": 600.0,
+          "value": 974.4113775766592,
+          "pass": false
+        },
+        "min_clearance": {
+          "limit": 2.0,
+          "value": 1.2716981530543743,
+          "pass": false
+        }
+      },
+      "a": 67.34148611017602,
+      "horizontal_tension": 792.7439744889921,
+      "tension_left": 903.7793775766592,
+      "tension_right": 974.4113775766592,
+      "max_tension": 974.4113775766592,
+      "vertex": {
+        "x": 35.238564531493225,
+        "y": 2.5678386775682025,
+        "inside_span": true
+      },
+      "span_lowest_point": {
+        "x": 35.238564531493225,
+        "y": 2.5678386775682025
+      },
+      "clearance": {
+        "min": 1.2716981530543743,
+        "x": 30.0,
+        "cable_y": 2.7716981530543743,
+        "terrain_y": 1.5,
+        "collision": false
+      },
+      "residuals": {
+        "endpoint_left": 0.0,
+        "endpoint_right": 0.0,
+        "arc_length": 1.4210854715202004e-14
+      },
+      "pass": false
+    },
+    {
+      "length": 95.0,
+      "ok": true,
+      "checks": {
+        "max_tension": {
+          "limit": 600.0,
+          "value": 759.1358119146666,
+          "pass": false
+        },
+        "min_clearance": {
+          "limit": 2.0,
+          "value": -8.543377842285775,
+          "pass": false
+        }
+      },
+      "a": 38.96494385693163,
+      "horizontal_tension": 458.6953190837992,
+      "tension_left": 688.5038119146667,
+      "tension_right": 759.1358119146666,
+      "max_tension": 759.1358119146666,
+      "vertex": {
+        "x": 37.53577615455064,
+        "y": -7.521618487161703,
+        "inside_span": true
+      },
+      "span_lowest_point": {
+        "x": 37.53577615455064,
+        "y": -7.521618487161703
+      },
+      "clearance": {
+        "min": -8.543377842285775,
+        "x": 34.42189611483591,
+        "cable_y": -7.397129531472649,
+        "terrain_y": 1.1462483108131272,
+        "collision": true
+      },
+      "residuals": {
+        "endpoint_left": 0.0,
+        "endpoint_right": 3.552713678800501e-15,
+        "arc_length": 0.0
+      },
+      "pass": false
+    },
+    {
+      "length": 110.0,
+      "ok": true,
+      "checks": {
+        "max_tension": {
+          "limit": 600.0,
+          "value": 762.7341353015798,
+          "pass": false
+        },
+        "min_clearance": {
+          "limit": 2.0,
+          "value": -19.581726625698423,
+          "pass": false
+        }
+      },
+      "a": 28.123292064801106,
+      "horizontal_tension": 331.0673941868386,
+      "tension_left": 692.1021353015799,
+      "tension_right": 762.7341353015798,
+      "max_tension": 762.7341353015798,
+      "vertex": {
+        "x": 38.46447820939952,
+        "y": -18.668938253036128,
+        "inside_span": true
+      },
+      "span_lowest_point": {
+        "x": 38.46447820939952,
+        "y": -18.668938253036128
+      },
+      "clearance": {
+        "min": -19.581726625698423,
+        "x": 36.21700781310706,
+        "cable_y": -18.579087250746987,
+        "terrain_y": 1.0026393749514353,
+        "collision": true
+      },
+      "residuals": {
+        "endpoint_left": 0.0,
+        "endpoint_right": 1.0658141036401503e-14,
+        "arc_length": 2.842170943040401e-14
+      },
+      "pass": false
+    }
+  ],
+  "sample_files": [
+    "samples_L85.csv",
+    "samples_L95.csv",
+    "samples_L110.csv"
+  ]
+}
