@@ -1,0 +1,16 @@
+{
+  "shafts": ["sun", "ring", "carrier"],
+  "connections": [
+    {"type": "planetary", "label": "PG1",
+     "sun": {"shaft": "sun", "teeth": 30},
+     "ring": {"shaft": "ring", "teeth": 90},
+     "carrier": "carrier"}
+  ],
+  "cases": [
+    {"name": "ring-fixed", "speeds": {"sun": 120}, "fixed": ["ring"],
+     "torques": {"sun": 12.0, "carrier": -48.0}},
+    {"name": "carrier-fixed", "speeds": {"sun": 120}, "fixed": ["carrier"]},
+    {"name": "free-spin", "speeds": {"sun": 60}},
+    {"name": "overdriven", "speeds": {"sun": 10, "ring": 5, "carrier": 1}}
+  ]
+}
