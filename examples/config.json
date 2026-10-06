@@ -1,0 +1,8 @@
+{
+  "planet_radius_ratio": 0.1,
+  "impact_parameter": 0.3,
+  "t_mid_hours": 10.0,
+  "velocity": 0.5,
+  "limb_darkening": [0.3, 0.2],
+  "tolerance": 1e-10
+}

@@ -1,0 +1,17 @@
+{
+  "total_flux": 2.7227136331111543,
+  "contact_interval_hours": [
+    7.883398951148328,
+    12.116601048851672
+  ],
+  "contact_times_hours": [
+    7.883398951148328,
+    8.302943725152286,
+    11.697056274847714,
+    12.116601048851672
+  ],
+  "converged": true,
+  "blocked_flux_calls": 664,
+  "blocked_flux_evaluations": 61672,
+  "tolerance": 1e-10
+}
