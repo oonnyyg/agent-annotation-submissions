@@ -1,0 +1,16 @@
+{
+  "stations": [
+    {"id": "S1", "buffer": 0},
+    {"id": "S2", "buffer": 0}
+  ],
+  "jobs": [
+    {"id": "J1", "release": 0, "route": [
+      {"station": "S1", "duration": 2},
+      {"station": "S2", "duration": 1}
+    ]},
+    {"id": "J2", "release": 0, "route": [
+      {"station": "S2", "duration": 2},
+      {"station": "S1", "duration": 1}
+    ]}
+  ]
+}
