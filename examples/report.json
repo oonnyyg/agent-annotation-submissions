@@ -1,0 +1,232 @@
+{
+  "epochs": [
+    {
+      "epoch": "e1",
+      "status": "ok",
+      "position_m": [
+        6377998.9818484485,
+        1002.1055833175006,
+        -498.0875483097483
+      ],
+      "clock_m": 85000.5727367123,
+      "iterations": 3,
+      "weighted_residual_sum_squares": 2.203688887539799,
+      "covariance": [
+        [
+          2.9013860337264514,
+          -3.538055237675394,
+          -4.080106691159668,
+          -1.6103785951165066
+        ],
+        [
+          -3.5380552376753935,
+          7.53618079548921,
+          7.302476779097142,
+          2.597191582346691
+        ],
+        [
+          -4.080106691159667,
+          7.302476779097142,
+          11.218241120883274,
+          4.956405243640626
+        ],
+        [
+          -1.610378595116506,
+          2.59719158234669,
+          4.956405243640625,
+          2.7109103080679713
+        ]
+      ],
+      "residuals": [
+        {
+          "sat_id": "G01",
+          "residual_m": 0.014421530067920685
+        },
+        {
+          "sat_id": "G02",
+          "residual_m": 1.2760519869625568
+        },
+        {
+          "sat_id": "G03",
+          "residual_m": -0.23207586631178856
+        },
+        {
+          "sat_id": "G04",
+          "residual_m": 0.40950335562229156
+        },
+        {
+          "sat_id": "G05",
+          "residual_m": -0.39408155158162117
+        },
+        {
+          "sat_id": "G06",
+          "residual_m": -3.299425143748522
+        }
+      ],
+      "leave_one_out": [
+        {
+          "excluded_sat_id": "G01",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 0.20633965039195176,
+          "clock_shift_m": 0.02795282515580766,
+          "extrapolated_residual_m": 0.22469090297818184
+        },
+        {
+          "excluded_sat_id": "G02",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 14.242913982549288,
+          "clock_shift_m": 2.496635103248991,
+          "extrapolated_residual_m": 10.344297729432583
+        },
+        {
+          "excluded_sat_id": "G03",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 10.81910233026262,
+          "clock_shift_m": 6.664797150224331,
+          "extrapolated_residual_m": -12.022020135074854
+        },
+        {
+          "excluded_sat_id": "G04",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 7.058342670278097,
+          "clock_shift_m": 2.6540663365158252,
+          "extrapolated_residual_m": 4.2372168973088264
+        },
+        {
+          "excluded_sat_id": "G05",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 0.05638660327313596,
+          "clock_shift_m": 0.004922461594105698,
+          "extrapolated_residual_m": -0.4445311762392521
+        },
+        {
+          "excluded_sat_id": "G06",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 1.650692542470798,
+          "clock_shift_m": 0.21479147544596344,
+          "extrapolated_residual_m": -4.073369603604078
+        }
+      ]
+    },
+    {
+      "epoch": "e2",
+      "status": "ok",
+      "position_m": [
+        6378000.102808931,
+        1000.1026255818929,
+        -500.7337737307996
+      ],
+      "clock_m": 85119.85744605926,
+      "iterations": 3,
+      "weighted_residual_sum_squares": 1.2301405913357435,
+      "covariance": [
+        [
+          2.8460457130351386,
+          -3.5929457578113517,
+          -4.046460304219057,
+          -1.5866269826073696
+        ],
+        [
+          -3.5929457578113513,
+          7.764554934626239,
+          7.5127410445947165,
+          2.7116515588571843
+        ],
+        [
+          -4.046460304219057,
+          7.512741044594717,
+          11.407728164710376,
+          5.04021289329006
+        ],
+        [
+          -1.5866269826073696,
+          2.7116515588571857,
+          5.04021289329006,
+          2.7367614453778537
+        ]
+      ],
+      "residuals": [
+        {
+          "sat_id": "G01",
+          "residual_m": 0.01792280003428459
+        },
+        {
+          "sat_id": "G02",
+          "residual_m": -0.8982825092971325
+        },
+        {
+          "sat_id": "G03",
+          "residual_m": 0.11334085464477539
+        },
+        {
+          "sat_id": "G04",
+          "residual_m": -0.3045385591685772
+        },
+        {
+          "sat_id": "G05",
+          "residual_m": 0.06988202407956123
+        },
+        {
+          "sat_id": "G06",
+          "residual_m": 2.506408102810383
+        }
+      ],
+      "leave_one_out": [
+        {
+          "excluded_sat_id": "G01",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 0.2553881807946697,
+          "clock_shift_m": 0.033550182095495984,
+          "extrapolated_residual_m": 0.27931543439626694
+        },
+        {
+          "excluded_sat_id": "G02",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 11.77169976307701,
+          "clock_shift_m": 2.097589421347948,
+          "extrapolated_residual_m": -8.368133675307035
+        },
+        {
+          "excluded_sat_id": "G03",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 5.291675992483118,
+          "clock_shift_m": 3.218006826864439,
+          "extrapolated_residual_m": 5.792798291891813
+        },
+        {
+          "excluded_sat_id": "G04",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 4.746712071236172,
+          "clock_shift_m": 1.817419116589008,
+          "extrapolated_residual_m": -2.908630881458521
+        },
+        {
+          "excluded_sat_id": "G05",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 0.010366796050791272,
+          "clock_shift_m": 0.0008066635928116739,
+          "extrapolated_residual_m": 0.07911793515086174
+        },
+        {
+          "excluded_sat_id": "G06",
+          "status": "ok",
+          "detail": null,
+          "position_shift_m": 1.111450585837603,
+          "clock_shift_m": 0.12093586336413864,
+          "extrapolated_residual_m": 3.053036004304886
+        }
+      ]
+    }
+  ]
+}

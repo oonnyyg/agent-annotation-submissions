@@ -3,3 +3,6 @@ name = "pseudorange-position-lab"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+pseudorange-lab = "pseudorange_lab.cli:main"
