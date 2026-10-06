@@ -1,0 +1,23 @@
+{
+  "materials": {
+    "t300_5208": {
+      "e1": 181e9,
+      "e2": 10.3e9,
+      "nu12": 0.28,
+      "g12": 7.17e9,
+      "alpha1": 0.02e-6,
+      "alpha2": 22.5e-6
+    }
+  },
+  "layup": [
+    {"material": "t300_5208", "thickness": 0.000125, "angle_deg": 0},
+    {"material": "t300_5208", "thickness": 0.000125, "angle_deg": 45},
+    {"material": "t300_5208", "thickness": 0.000125, "angle_deg": -45},
+    {"material": "t300_5208", "thickness": 0.000125, "angle_deg": 90}
+  ],
+  "load_cases": [
+    {"name": "tension", "forces": [100000, 0, 0], "moments": [0, 0, 0], "delta_t": 0},
+    {"name": "cooldown", "forces": [0, 0, 0], "moments": [0, 0, 0], "delta_t": -100},
+    {"name": "combined", "forces": [50000, 0, 0], "moments": [0, 0, 0], "delta_t": -100}
+  ]
+}
