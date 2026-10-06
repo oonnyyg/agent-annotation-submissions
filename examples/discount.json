@@ -1,0 +1,20 @@
+{
+  "strategy": "first",
+  "cell_limit": 100000,
+  "fields": [
+    { "name": "tier", "type": "enum", "values": ["free", "pro", "enterprise"] },
+    { "name": "age", "type": "int", "min": 0, "max": 120 }
+  ],
+  "rules": [
+    { "id": "child-free", "output": "0.5", "when": { "tier": { "enum": ["free"] }, "age": { "range": { "max": 12 } } } },
+    { "id": "pro-young", "output": "0.8", "when": { "tier": { "enum": ["pro"] }, "age": { "range": { "max": 25, "max_exclusive": true } } } },
+    { "id": "pro-any", "output": "0.9", "when": { "tier": { "enum": ["pro"] } } },
+    { "id": "ent-any", "output": "0.7", "when": { "tier": { "enum": ["enterprise"] } } },
+    { "id": "ent-shadowed", "output": "0.6", "when": { "tier": { "enum": ["enterprise"] }, "age": { "range": { "min": 18 } } } }
+  ],
+  "samples": [
+    { "tier": "pro", "age": 20 },
+    { "tier": "free", "age": 30 },
+    { "tier": "enterprise", "age": 40 }
+  ]
+}
