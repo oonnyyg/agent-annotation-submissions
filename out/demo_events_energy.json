@@ -1,0 +1,38 @@
+{
+  "name": "demo",
+  "status": "ok",
+  "trajectory_csv": "demo_trajectory.csv",
+  "events": [
+    {
+      "t": 0.0,
+      "type": "start",
+      "direction": 1,
+      "force": 10.0
+    },
+    {
+      "t": 1.25,
+      "type": "stop"
+    },
+    {
+      "t": 1.25,
+      "type": "start",
+      "direction": -1,
+      "force": -20.0
+    }
+  ],
+  "final": {
+    "t": 3.0,
+    "x": -9.25,
+    "v": -5.0
+  },
+  "distance": 16.75,
+  "net_displacement": -9.25,
+  "energy": {
+    "work_force": 79.5,
+    "friction_dissipation": 67.0,
+    "kinetic_initial": 0.0,
+    "kinetic_final": 12.5,
+    "kinetic_change": 12.5,
+    "residual": 0.0
+  }
+}
