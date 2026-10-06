@@ -1,0 +1,17 @@
+{
+  "nuclides": [
+    {"name": "A", "half_life": 2.0, "initial": 1.0},
+    {"name": "B", "half_life": 2.0, "initial": 0.0},
+    {"name": "S", "half_life": null, "initial": 0.0}
+  ],
+  "edges": [
+    {"parent": "A", "child": "B", "probability": 0.4},
+    {"parent": "A", "child": "S", "probability": 0.6},
+    {"parent": "B", "child": "S", "probability": 1.0}
+  ],
+  "feeds": [
+    {"nuclide": "A", "rate": 0.1, "start": 1.0, "end": 4.0}
+  ],
+  "schedule": {"start": 0.0, "stop": 10.0, "step": 1.0},
+  "windows": [{"start": 0.0, "end": 10.0}, {"start": 1.0, "end": 4.0}]
+}
