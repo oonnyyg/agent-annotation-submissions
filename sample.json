@@ -1,0 +1,6 @@
+{
+  "model": {"layers": [{"velocity": 500, "thickness": 100}, {"velocity": 2000}]},
+  "offsets": [0, 30, 60, 258.2, 500],
+  "range": [0, 1000],
+  "observed": [[60, 0.224], [500, 0.637]]
+}

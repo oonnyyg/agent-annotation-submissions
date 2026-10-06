@@ -1,0 +1,17 @@
+offset_m,path,interface,reachable,is_first,time_s,layer,role,length_m,horizontal_m,segment_time_s
+0.0,direct,,yes,yes,0,1,direct,0,0,0
+0.0,refracted_interface_1,1,no,no,,,,,,
+30.0,direct,,yes,yes,0.06,1,direct,30,30,0.06
+30.0,refracted_interface_1,1,no,no,,,,,,
+60.0,direct,,yes,yes,0.12,1,direct,60,60,0.12
+60.0,refracted_interface_1,1,yes,no,0.417298335,1,down,103.279556,25.819889,0.206559112
+60.0,refracted_interface_1,1,yes,no,0.417298335,2,headwave,8.36022205,8.36022205,0.00418011103
+60.0,refracted_interface_1,1,yes,no,0.417298335,1,up,103.279556,25.819889,0.206559112
+258.2,direct,,yes,no,0.5164,1,direct,258.2,258.2,0.5164
+258.2,refracted_interface_1,1,yes,yes,0.516398335,1,down,103.279556,25.819889,0.206559112
+258.2,refracted_interface_1,1,yes,yes,0.516398335,2,headwave,206.560222,206.560222,0.103280111
+258.2,refracted_interface_1,1,yes,yes,0.516398335,1,up,103.279556,25.819889,0.206559112
+500.0,direct,,yes,no,1,1,direct,500,500,1
+500.0,refracted_interface_1,1,yes,yes,0.637298335,1,down,103.279556,25.819889,0.206559112
+500.0,refracted_interface_1,1,yes,yes,0.637298335,2,headwave,448.360222,448.360222,0.224180111
+500.0,refracted_interface_1,1,yes,yes,0.637298335,1,up,103.279556,25.819889,0.206559112

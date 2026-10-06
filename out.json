@@ -1,0 +1,207 @@
+{
+  "units": {
+    "distance": "m",
+    "time": "s"
+  },
+  "layers": [
+    {
+      "velocity_m_per_s": 500.0,
+      "thickness_m": 100.0
+    },
+    {
+      "velocity_m_per_s": 2000.0,
+      "thickness_m": "half-space"
+    }
+  ],
+  "arrivals": [
+    {
+      "offset_m": 0.0,
+      "first_arrival_s": 0.0,
+      "tied_paths": [
+        {
+          "path": "direct",
+          "kind": "direct",
+          "interface": null,
+          "time_s": 0.0,
+          "min_offset_m": 0.0,
+          "segments": [
+            {
+              "layer": 1,
+              "role": "direct",
+              "length_m": 0.0,
+              "horizontal_m": 0.0,
+              "time_s": 0.0
+            }
+          ],
+          "segment_time_sum_s": 0.0
+        }
+      ]
+    },
+    {
+      "offset_m": 30.0,
+      "first_arrival_s": 0.06,
+      "tied_paths": [
+        {
+          "path": "direct",
+          "kind": "direct",
+          "interface": null,
+          "time_s": 0.06,
+          "min_offset_m": 0.0,
+          "segments": [
+            {
+              "layer": 1,
+              "role": "direct",
+              "length_m": 30.0,
+              "horizontal_m": 30.0,
+              "time_s": 0.06
+            }
+          ],
+          "segment_time_sum_s": 0.06
+        }
+      ]
+    },
+    {
+      "offset_m": 60.0,
+      "first_arrival_s": 0.12,
+      "tied_paths": [
+        {
+          "path": "direct",
+          "kind": "direct",
+          "interface": null,
+          "time_s": 0.12,
+          "min_offset_m": 0.0,
+          "segments": [
+            {
+              "layer": 1,
+              "role": "direct",
+              "length_m": 60.0,
+              "horizontal_m": 60.0,
+              "time_s": 0.12
+            }
+          ],
+          "segment_time_sum_s": 0.12
+        }
+      ]
+    },
+    {
+      "offset_m": 258.2,
+      "first_arrival_s": 0.5163983346207417,
+      "tied_paths": [
+        {
+          "path": "refracted_interface_1",
+          "kind": "refracted",
+          "interface": 1,
+          "time_s": 0.5163983346207417,
+          "min_offset_m": 51.63977794943222,
+          "segments": [
+            {
+              "layer": 1,
+              "role": "down",
+              "length_m": 103.27955589886444,
+              "horizontal_m": 25.81988897471609,
+              "time_s": 0.2065591117977289
+            },
+            {
+              "layer": 2,
+              "role": "headwave",
+              "length_m": 206.56022205056777,
+              "horizontal_m": 206.56022205056777,
+              "time_s": 0.10328011102528388
+            },
+            {
+              "layer": 1,
+              "role": "up",
+              "length_m": 103.27955589886444,
+              "horizontal_m": 25.81988897471609,
+              "time_s": 0.2065591117977289
+            }
+          ],
+          "segment_time_sum_s": 0.5163983346207417
+        }
+      ]
+    },
+    {
+      "offset_m": 500.0,
+      "first_arrival_s": 0.6372983346207417,
+      "tied_paths": [
+        {
+          "path": "refracted_interface_1",
+          "kind": "refracted",
+          "interface": 1,
+          "time_s": 0.6372983346207417,
+          "min_offset_m": 51.63977794943222,
+          "segments": [
+            {
+              "layer": 1,
+              "role": "down",
+              "length_m": 103.27955589886444,
+              "horizontal_m": 25.81988897471609,
+              "time_s": 0.2065591117977289
+            },
+            {
+              "layer": 2,
+              "role": "headwave",
+              "length_m": 448.36022205056776,
+              "horizontal_m": 448.36022205056776,
+              "time_s": 0.22418011102528387
+            },
+            {
+              "layer": 1,
+              "role": "up",
+              "length_m": 103.27955589886444,
+              "horizontal_m": 25.81988897471609,
+              "time_s": 0.2065591117977289
+            }
+          ],
+          "segment_time_sum_s": 0.6372983346207417
+        }
+      ]
+    }
+  ],
+  "branches": {
+    "range_m": [
+      0.0,
+      1000.0
+    ],
+    "intervals": [
+      {
+        "start_m": 0.0,
+        "end_m": 258.1988897471611,
+        "paths": [
+          "direct"
+        ]
+      },
+      {
+        "start_m": 258.1988897471611,
+        "end_m": 1000.0,
+        "paths": [
+          "refracted_interface_1"
+        ]
+      }
+    ],
+    "switch_points_m": [
+      258.1988897471611
+    ],
+    "never_first_interfaces": []
+  },
+  "residuals": {
+    "count": 2,
+    "rms_s": 0.07353940781494618,
+    "mean_s": 0.05185083268962916,
+    "max_abs_s": 0.10400000000000001,
+    "picks": [
+      {
+        "offset_m": 60.0,
+        "observed_s": 0.224,
+        "modelled_s": 0.12,
+        "residual_s": 0.10400000000000001
+      },
+      {
+        "offset_m": 500.0,
+        "observed_s": 0.637,
+        "modelled_s": 0.6372983346207417,
+        "residual_s": -0.0002983346207416915
+      }
+    ]
+  }
+}
