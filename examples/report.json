@@ -1,0 +1,85 @@
+{
+  "diode_drop": 0.5,
+  "step": 0.1,
+  "conditions": [
+    {
+      "name": "STC",
+      "module_count": 3,
+      "max_current": 10.0,
+      "optimum": {
+        "current": 9.5,
+        "voltage": 96.0,
+        "power": 912.0,
+        "modules": [
+          {
+            "index": 0,
+            "voltage": 32.0,
+            "bypassed": false
+          },
+          {
+            "index": 1,
+            "voltage": 32.0,
+            "bypassed": false
+          },
+          {
+            "index": 2,
+            "voltage": 32.0,
+            "bypassed": false
+          }
+        ]
+      },
+      "local_peaks": []
+    },
+    {
+      "name": "one-module-shaded",
+      "module_count": 3,
+      "max_current": 9.99609375,
+      "optimum": {
+        "current": 9.5,
+        "voltage": 63.5,
+        "power": 603.25,
+        "modules": [
+          {
+            "index": 0,
+            "voltage": 32.0,
+            "bypassed": false
+          },
+          {
+            "index": 1,
+            "voltage": 32.0,
+            "bypassed": false
+          },
+          {
+            "index": 2,
+            "voltage": -0.5,
+            "bypassed": true
+          }
+        ]
+      },
+      "local_peaks": [
+        {
+          "current": 3.6,
+          "voltage": 97.93684210526315,
+          "power": 352.5726315789474,
+          "modules": [
+            {
+              "index": 0,
+              "voltage": 36.96842105263158,
+              "bypassed": false
+            },
+            {
+              "index": 1,
+              "voltage": 36.96842105263158,
+              "bypassed": false
+            },
+            {
+              "index": 2,
+              "voltage": 24.0,
+              "bypassed": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
