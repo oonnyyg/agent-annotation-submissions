@@ -1,0 +1,11 @@
+case,axis,rpm
+ring_locked,motor,1440
+ring_locked,lay,-480
+ring_locked,sun,-480
+ring_locked,ring,0
+ring_locked,carrier,-120
+free_spin,motor,1440
+free_spin,lay,-480
+free_spin,sun,-480
+free_spin,ring,
+free_spin,carrier,

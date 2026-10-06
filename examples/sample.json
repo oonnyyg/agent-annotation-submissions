@@ -1,0 +1,21 @@
+{
+  "axes": ["motor", "lay", "sun", "ring", "carrier"],
+  "connections": [
+    {"id": "c1", "type": "external_mesh",
+     "gear_a": {"axis": "motor", "teeth": 20},
+     "gear_b": {"axis": "lay", "teeth": 60}},
+    {"id": "c2", "type": "rigid", "axes": ["lay", "sun"]},
+    {"id": "p1", "type": "planetary",
+     "sun": {"axis": "sun", "teeth": 24},
+     "ring": {"axis": "ring", "teeth": 72},
+     "carrier": "carrier", "planet_teeth": 24}
+  ],
+  "cases": [
+    {"name": "ring_locked",
+     "inputs": [{"axis": "motor", "rpm": 1440}, {"axis": "ring", "fixed": true}],
+     "torques": {"motor": 12.0, "carrier": -144.0}},
+    {"name": "free_spin",
+     "inputs": [{"axis": "motor", "rpm": 1440}],
+     "torques": {"motor": 12.0}}
+  ]
+}

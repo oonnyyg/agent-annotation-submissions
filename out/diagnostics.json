@@ -1,0 +1,82 @@
+{
+  "tolerance": 1e-09,
+  "cases": [
+    {
+      "case": "ring_locked",
+      "status": "unique",
+      "constraints_total": 5,
+      "dof": 0,
+      "free_axes": [],
+      "residuals": [
+        {
+          "source": "c1",
+          "kind": "external_mesh",
+          "description": "external_mesh: motor(z=20) vs lay(z=60)",
+          "residual": 0.0
+        },
+        {
+          "source": "c2",
+          "kind": "rigid",
+          "description": "rigid: lay == sun",
+          "residual": 0.0
+        },
+        {
+          "source": "p1",
+          "kind": "planetary",
+          "description": "planetary: sun z=24, ring z=72, planet z=24",
+          "residual": 0.0
+        },
+        {
+          "source": "ring_locked/input[motor]",
+          "kind": "input",
+          "description": "input: motor = 1440.0 rpm",
+          "residual": 0.0
+        },
+        {
+          "source": "ring_locked/input[ring]",
+          "kind": "input",
+          "description": "input: ring = 0.0 rpm",
+          "residual": 0.0
+        }
+      ],
+      "max_abs_residual": 0.0,
+      "power": {
+        "per_axis": {
+          "motor": {
+            "torque_Nm": 12.0,
+            "power_W": 1809.5573684677208
+          },
+          "lay": {
+            "torque_Nm": 0.0,
+            "power_W": -0.0
+          },
+          "sun": {
+            "torque_Nm": 0.0,
+            "power_W": -0.0
+          },
+          "ring": {
+            "torque_Nm": 0.0,
+            "power_W": 0.0
+          },
+          "carrier": {
+            "torque_Nm": -144.0,
+            "power_W": 1809.5573684677208
+          }
+        },
+        "total_W": 3619.1147369354417,
+        "balanced": false
+      }
+    },
+    {
+      "case": "free_spin",
+      "status": "underdetermined",
+      "constraints_total": 4,
+      "dof": 1,
+      "free_axes": [
+        "carrier"
+      ],
+      "message": "underdetermined; 1 remaining dof",
+      "power": null
+    }
+  ]
+}
