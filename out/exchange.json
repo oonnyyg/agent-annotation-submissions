@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "case": "steady",
+      "pairwise_exchange_W": [
+        {
+          "from": "hot",
+          "to": "cold",
+          "power_W": 16665.02040357363
+        },
+        {
+          "from": "hot",
+          "to": "shield",
+          "power_W": 8332.510201786816
+        },
+        {
+          "from": "cold",
+          "to": "shield",
+          "power_W": -8332.510201786818
+        }
+      ],
+      "antisymmetry_max_residual_W": 0.0,
+      "per_surface_balance_W": [
+        {
+          "surface": "hot",
+          "net_power_W": 24997.53060536045
+        },
+        {
+          "surface": "cold",
+          "net_power_W": -24997.530605360447
+        },
+        {
+          "surface": "shield",
+          "net_power_W": 0.0
+        }
+      ],
+      "enclosure_energy_residual_W": 3.637978807091713e-12
+    },
+    {
+      "case": "isothermal_check",
+      "pairwise_exchange_W": [
+        {
+          "from": "hot",
+          "to": "cold",
+          "power_W": 2.2737367544323206e-13
+        },
+        {
+          "from": "hot",
+          "to": "shield",
+          "power_W": -2.2737367544323206e-13
+        },
+        {
+          "from": "cold",
+          "to": "shield",
+          "power_W": -4.547473508864641e-13
+        }
+      ],
+      "antisymmetry_max_residual_W": 0.0,
+      "per_surface_balance_W": [
+        {
+          "surface": "hot",
+          "net_power_W": 0.0
+        },
+        {
+          "surface": "cold",
+          "net_power_W": -9.094947017729282e-13
+        },
+        {
+          "surface": "shield",
+          "net_power_W": 9.094947017729282e-13
+        }
+      ],
+      "enclosure_energy_residual_W": 0.0
+    }
+  ]
+}

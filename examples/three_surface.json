@@ -1,0 +1,31 @@
+{
+  "surfaces": [
+    {"name": "hot", "area": 1.0, "emissivity": 0.8},
+    {"name": "cold", "area": 1.0, "emissivity": 0.6},
+    {"name": "shield", "area": 2.0, "emissivity": 0.4}
+  ],
+  "view_factors": [
+    [0.0, 0.5, 0.5],
+    [0.5, 0.0, 0.5],
+    [0.25, 0.25, 0.5]
+  ],
+  "tolerances": {"row_sum": 1e-9, "reciprocity": 1e-9},
+  "cases": [
+    {
+      "name": "steady",
+      "surfaces": [
+        {"temperature_K": 1000},
+        {"temperature_K": 300},
+        {"adiabatic": true}
+      ]
+    },
+    {
+      "name": "isothermal_check",
+      "surfaces": [
+        {"temperature_K": 500},
+        {"temperature_K": 500},
+        {"temperature_K": 500}
+      ]
+    }
+  ]
+}
