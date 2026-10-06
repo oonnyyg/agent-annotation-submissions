@@ -1,0 +1,25 @@
+{
+  "budget": 12,
+  "activities": [
+    {"id": "start", "duration": 0, "predecessors": []},
+    {
+      "id": "design",
+      "duration": 4,
+      "predecessors": ["start"],
+      "crash": {"shorter_duration": 2, "cost": 6}
+    },
+    {
+      "id": "build",
+      "duration": 6,
+      "predecessors": ["design"],
+      "crash": {"shorter_duration": 4, "cost": 6}
+    },
+    {
+      "id": "docs",
+      "duration": 3,
+      "predecessors": ["start"],
+      "crash": {"shorter_duration": 1, "cost": 2}
+    },
+    {"id": "done", "duration": 0, "predecessors": ["build", "docs"]}
+  ]
+}

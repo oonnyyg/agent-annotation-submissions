@@ -1,0 +1,132 @@
+{
+  "budget": 12,
+  "selected_activities": [
+    "build",
+    "design"
+  ],
+  "total_cost": 12,
+  "project_finish_baseline": 10,
+  "project_finish_crashed": 6,
+  "days_saved": 4,
+  "critical_path_baseline": [
+    "start",
+    "design",
+    "build",
+    "done"
+  ],
+  "critical_path_crashed": [
+    "start",
+    "design",
+    "build",
+    "done"
+  ],
+  "combinations_total": 8,
+  "combinations_feasible_within_budget": 7,
+  "selection_rule": "在预算内枚举全部压缩组合，优先整体完工日最早；同完工日取总成本最低；再相同时取排序后已选活动标识序列字典序最小",
+  "activities": [
+    {
+      "id": "start",
+      "predecessors": [],
+      "base_duration": 0,
+      "new_duration": 0,
+      "base_es": 0,
+      "base_ef": 0,
+      "base_ls": 0,
+      "base_lf": 0,
+      "base_total_float": 0,
+      "base_critical": true,
+      "new_es": 0,
+      "new_ef": 0,
+      "new_ls": 0,
+      "new_lf": 0,
+      "new_total_float": 0,
+      "new_critical": true,
+      "crashed": false
+    },
+    {
+      "id": "design",
+      "predecessors": [
+        "start"
+      ],
+      "base_duration": 4,
+      "new_duration": 2,
+      "base_es": 0,
+      "base_ef": 4,
+      "base_ls": 0,
+      "base_lf": 4,
+      "base_total_float": 0,
+      "base_critical": true,
+      "new_es": 0,
+      "new_ef": 2,
+      "new_ls": 0,
+      "new_lf": 2,
+      "new_total_float": 0,
+      "new_critical": true,
+      "crashed": true
+    },
+    {
+      "id": "build",
+      "predecessors": [
+        "design"
+      ],
+      "base_duration": 6,
+      "new_duration": 4,
+      "base_es": 4,
+      "base_ef": 10,
+      "base_ls": 4,
+      "base_lf": 10,
+      "base_total_float": 0,
+      "base_critical": true,
+      "new_es": 2,
+      "new_ef": 6,
+      "new_ls": 2,
+      "new_lf": 6,
+      "new_total_float": 0,
+      "new_critical": true,
+      "crashed": true
+    },
+    {
+      "id": "docs",
+      "predecessors": [
+        "start"
+      ],
+      "base_duration": 3,
+      "new_duration": 3,
+      "base_es": 0,
+      "base_ef": 3,
+      "base_ls": 7,
+      "base_lf": 10,
+      "base_total_float": 7,
+      "base_critical": false,
+      "new_es": 0,
+      "new_ef": 3,
+      "new_ls": 3,
+      "new_lf": 6,
+      "new_total_float": 3,
+      "new_critical": false,
+      "crashed": false
+    },
+    {
+      "id": "done",
+      "predecessors": [
+        "build",
+        "docs"
+      ],
+      "base_duration": 0,
+      "new_duration": 0,
+      "base_es": 10,
+      "base_ef": 10,
+      "base_ls": 10,
+      "base_lf": 10,
+      "base_total_float": 0,
+      "base_critical": true,
+      "new_es": 6,
+      "new_ef": 6,
+      "new_ls": 6,
+      "new_lf": 6,
+      "new_total_float": 0,
+      "new_critical": true,
+      "crashed": false
+    }
+  ]
+}

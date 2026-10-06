@@ -1,0 +1,6 @@
+﻿id,predecessors,base_duration,new_duration,crashed,base_es,base_ef,base_ls,base_lf,base_total_float,base_critical,new_es,new_ef,new_ls,new_lf,new_total_float,new_critical
+start,,0,0,false,0,0,0,0,0,true,0,0,0,0,0,true
+design,start,4,2,true,0,4,0,4,0,true,0,2,0,2,0,true
+build,design,6,4,true,4,10,4,10,0,true,2,6,2,6,0,true
+docs,start,3,3,false,0,3,7,10,7,false,0,3,3,6,3,false
+done,build;docs,0,0,false,10,10,10,10,0,true,6,6,6,6,0,true
