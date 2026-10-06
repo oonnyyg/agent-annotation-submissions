@@ -1,0 +1,12 @@
+﻿{
+  "decay_rate": 0.0001,
+  "dispersion": {"lateral_coeff": 0.5, "lateral_exponent": 0.9, "vertical_coeff": 0.3, "vertical_exponent": 0.8},
+  "sources": [
+    {"id": "stack-a", "east_m": 0, "north_m": 0, "height_m": 30, "emission_rate": 1.5},
+    {"id": "stack-b", "east_m": 200, "north_m": 50, "height_m": 15, "emission_rate": 0.8}
+  ],
+  "receptors": [
+    {"id": "school", "east_m": -100, "north_m": -800, "height_m": 1.5},
+    {"id": "farm", "east_m": 500, "north_m": -300, "height_m": 0}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "note": "Screening-level Gaussian plume estimates; not a regulatory compliance determination.",
+  "period_count": 3,
+  "receptors": [
+    {
+      "receptor_id": "school",
+      "total_duration_s": 14400.0,
+      "time_integral": 0.041507126332445334,
+      "weighted_average": 2.882439328642037e-06,
+      "peak_concentration": 1.0027333976529972e-05,
+      "peak_period_index": 0,
+      "peak_period_start": "2026-01-01T00:00:00"
+    },
+    {
+      "receptor_id": "farm",
+      "total_duration_s": 14400.0,
+      "time_integral": 0.010027651696891685,
+      "weighted_average": 6.963647011730337e-07,
+      "peak_concentration": 2.6072196327549675e-06,
+      "peak_period_index": 2,
+      "peak_period_start": "2026-01-01T05:00:00"
+    }
+  ]
+}
