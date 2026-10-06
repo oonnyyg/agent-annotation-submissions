@@ -1,0 +1,24 @@
+{
+  "records": {
+    "Example.COM": {
+      "TXT": [["v=spf1", " ip4:192.0.2.0/24 include:_spf.vendor.test -all"]],
+      "A": [["192.0.2.10"]]
+    },
+    "_spf.vendor.test": {
+      "TXT": [["v=spf1 a:mail.vendor.test redirect=fallback.vendor.test"]]
+    },
+    "mail.vendor.test": {
+      "A": [["198.51.100.7"]],
+      "AAAA": [["2001:db8::7"]]
+    },
+    "fallback.vendor.test": {
+      "TXT": [["v=spf1 ~all"]]
+    },
+    "broken.test": {
+      "TXT": [["v=spf1 mx -all"]]
+    }
+  },
+  "errors": {
+    "flaky.test": "SERVFAIL"
+  }
+}

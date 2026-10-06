@@ -1,0 +1,11 @@
+{
+  "queries": [
+    {"ip": "192.0.2.55", "domain": "example.com"},
+    {"ip": "198.51.100.7", "domain": "EXAMPLE.com"},
+    {"ip": "203.0.113.9", "domain": "example.com"},
+    {"ip": "2001:db8::7", "domain": "example.com"},
+    {"ip": "10.0.0.1", "domain": "broken.test"},
+    {"ip": "10.0.0.1", "domain": "flaky.test"},
+    {"ip": "10.0.0.1", "domain": "unknown.test"}
+  ]
+}
