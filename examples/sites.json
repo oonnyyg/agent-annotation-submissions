@@ -1,0 +1,6 @@
+{
+  "sites": [
+    {"name": "receptor", "total": 10.0, "kd_a": 1.0, "kd_b": 5.0},
+    {"name": "decoy", "total": 50.0, "kd_a": 100.0, "kd_b": 2.0}
+  ]
+}

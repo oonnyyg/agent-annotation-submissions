@@ -1,0 +1,180 @@
+{
+  "experiments": [
+    {
+      "input": {
+        "total_a": 0.0,
+        "total_b": 0.0
+      },
+      "free": {
+        "free_a": 0.0,
+        "free_b": 0.0
+      },
+      "bound": {
+        "bound_a": 0.0,
+        "bound_b": 0.0
+      },
+      "mass_balance": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "residuals": {
+        "residual_a": 0.0,
+        "residual_b": 0.0
+      },
+      "converged": true,
+      "iterations": 1,
+      "classes": [
+        {
+          "name": "receptor",
+          "total": 10.0,
+          "frac_free": 1.0,
+          "occ_a": 0.0,
+          "occ_b": 0.0,
+          "bound_a": 0.0,
+          "bound_b": 0.0
+        },
+        {
+          "name": "decoy",
+          "total": 50.0,
+          "frac_free": 1.0,
+          "occ_a": 0.0,
+          "occ_b": 0.0,
+          "bound_a": 0.0,
+          "bound_b": 0.0
+        }
+      ]
+    },
+    {
+      "input": {
+        "total_a": 5.0,
+        "total_b": 0.0
+      },
+      "free": {
+        "free_a": 0.6671001516615501,
+        "free_b": 0.0
+      },
+      "bound": {
+        "bound_a": 4.3328998483384495,
+        "bound_b": 0.0
+      },
+      "mass_balance": {
+        "a": 5.0,
+        "b": 0.0
+      },
+      "residuals": {
+        "residual_a": -2.220446049250313e-16,
+        "residual_b": 0.0
+      },
+      "converged": true,
+      "iterations": 8,
+      "classes": [
+        {
+          "name": "receptor",
+          "total": 10.0,
+          "frac_free": 0.599843985979684,
+          "occ_a": 0.400156014020316,
+          "occ_b": 0.0,
+          "bound_a": 4.00156014020316,
+          "bound_b": 0.0
+        },
+        {
+          "name": "decoy",
+          "total": 50.0,
+          "frac_free": 0.9933732058372942,
+          "occ_a": 0.006626794162705792,
+          "occ_b": 0.0,
+          "bound_a": 0.33133970813528957,
+          "bound_b": 0.0
+        }
+      ]
+    },
+    {
+      "input": {
+        "total_a": 5.0,
+        "total_b": 100.0
+      },
+      "free": {
+        "free_a": 2.773945164490472,
+        "free_b": 45.12678775195673
+      },
+      "bound": {
+        "bound_a": 2.2260548355095287,
+        "bound_b": 54.87321224804327
+      },
+      "mass_balance": {
+        "a": 5.0,
+        "b": 100.0
+      },
+      "residuals": {
+        "residual_a": 6.036837696399289e-16,
+        "residual_b": 0.0
+      },
+      "converged": true,
+      "iterations": 5,
+      "classes": [
+        {
+          "name": "receptor",
+          "total": 10.0,
+          "frac_free": 0.07812925612246788,
+          "occ_a": 0.21672627222615734,
+          "occ_b": 0.7051444716513747,
+          "bound_a": 2.1672627222615737,
+          "bound_b": 7.051444716513748
+        },
+        {
+          "name": "decoy",
+          "total": 50.0,
+          "frac_free": 0.04238880710445066,
+          "occ_a": 0.0011758422649591025,
+          "occ_b": 0.9564353506305903,
+          "bound_a": 0.05879211324795513,
+          "bound_b": 47.82176753152952
+        }
+      ]
+    },
+    {
+      "input": {
+        "total_a": 20.0,
+        "total_b": 30.0
+      },
+      "free": {
+        "free_a": 9.405327154142022,
+        "free_b": 2.5621420146954694
+      },
+      "bound": {
+        "bound_a": 10.59467284585798,
+        "bound_b": 27.437857985304532
+      },
+      "mass_balance": {
+        "a": 20.0,
+        "b": 30.0
+      },
+      "residuals": {
+        "residual_a": 1.1102230246251565e-15,
+        "residual_b": 0.0
+      },
+      "converged": true,
+      "iterations": 8,
+      "classes": [
+        {
+          "name": "receptor",
+          "total": 10.0,
+          "frac_free": 0.09159391733692122,
+          "occ_a": 0.8614707578831848,
+          "occ_b": 0.04693532477989393,
+          "bound_a": 8.61470757883185,
+          "bound_b": 0.4693532477989393
+        },
+        {
+          "name": "decoy",
+          "total": 50.0,
+          "frac_free": 0.4210305999093655,
+          "occ_a": 0.03959930534052261,
+          "occ_b": 0.5393700947501119,
+          "bound_a": 1.9799652670261303,
+          "bound_b": 26.968504737505594
+        }
+      ]
+    }
+  ]
+}
