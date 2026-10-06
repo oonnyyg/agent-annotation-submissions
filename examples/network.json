@@ -1,0 +1,19 @@
+{
+  "reference_station": "cpu",
+  "stations": [
+    {"name": "cpu", "type": "single", "mean_service_time": 0.5},
+    {"name": "disk", "type": "single", "mean_service_time": 0.8},
+    {"name": "think", "type": "infinite", "mean_service_time": 5.0}
+  ],
+  "routing": [
+    [0.0, 0.7, 0.3],
+    [1.0, 0.0, 0.0],
+    [1.0, 0.0, 0.0]
+  ],
+  "scenarios": [
+    {"name": "baseline", "population": 10},
+    {"name": "more-jobs", "population": 20},
+    {"name": "faster-disk", "population": 10,
+     "service_time_overrides": {"disk": 0.4}}
+  ]
+}

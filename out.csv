@@ -1,0 +1,10 @@
+scenario,population,station,type,mean_service_time,visit_ratio,residence_time,mean_queue_length,load,load_meaning,station_throughput
+baseline,10,cpu,single,0.5,1,1.871274054,3.078237498,0.822497777,utilization,1.644995554
+baseline,10,disk,single,0.8,0.7,3.868242475,4.454269171,0.9211975102,utilization,1.151496888
+baseline,10,think,infinite,5,0.3,5,2.467493331,2.467493331,mean_busy_servers,0.4934986662
+more-jobs,20,cpu,single,0.5,1,3.248734956,5.699445722,0.8771792404,utilization,1.754358481
+more-jobs,20,disk,single,0.8,0.7,9.50206234,11.66901656,0.9824407493,utilization,1.228050937
+more-jobs,20,think,infinite,5,0.3,5,2.631537721,2.631537721,mean_busy_servers,0.5263075442
+faster-disk,10,cpu,single,0.5,1,2.978184966,5.872726838,0.9859573709,utilization,1.971914742
+faster-disk,10,disk,single,0.4,0.7,0.8471831422,1.169401049,0.5521361277,utilization,1.380340319
+faster-disk,10,think,infinite,5,0.3,5,2.957872113,2.957872113,mean_busy_servers,0.5915744226

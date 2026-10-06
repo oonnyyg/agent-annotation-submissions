@@ -1,0 +1,1 @@
+{"reference_station": "zz", "stations": [{"name": "a", "type": "single", "mean_service_time": 0.5}, {"name": "b", "type": "single", "mean_service_time": 0.8}, {"name": "c", "type": "infinite", "mean_service_time": 5.0}], "routing": [[0.0, 0.7, 0.3], [1.0, 0.0, 0.0], [1.0, 0.0, 0.0]], "scenarios": [{"name": "base", "population": 10}]}

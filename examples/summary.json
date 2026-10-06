@@ -1,0 +1,144 @@
+{
+  "reference_station": "cpu",
+  "baseline_scenario": "baseline",
+  "scenarios": [
+    {
+      "name": "baseline",
+      "population": 10,
+      "reference_station": "cpu",
+      "throughput": 1.644995553927178,
+      "cycle_time": 6.079043785940037,
+      "relative_throughput": 1.0,
+      "queue_length_sum": 10.0,
+      "zero_population_queues": {
+        "cpu": 0.0,
+        "disk": 0.0,
+        "think": 0.0
+      },
+      "stations": [
+        {
+          "name": "cpu",
+          "type": "single",
+          "mean_service_time": 0.5,
+          "visit_ratio": 1.0,
+          "residence_time": 1.8712740535746353,
+          "mean_queue_length": 3.0782374983095626,
+          "load": 0.822497776963589,
+          "load_meaning": "utilization"
+        },
+        {
+          "name": "disk",
+          "type": "single",
+          "mean_service_time": 0.8,
+          "visit_ratio": 0.7,
+          "residence_time": 3.868242474807717,
+          "mean_queue_length": 4.45426917079967,
+          "load": 0.9211975101992196,
+          "load_meaning": "utilization"
+        },
+        {
+          "name": "think",
+          "type": "infinite",
+          "mean_service_time": 5.0,
+          "visit_ratio": 0.3,
+          "residence_time": 5.0,
+          "mean_queue_length": 2.467493330890767,
+          "load": 2.467493330890767,
+          "load_meaning": "mean_busy_servers"
+        }
+      ]
+    },
+    {
+      "name": "more-jobs",
+      "population": 20,
+      "reference_station": "cpu",
+      "throughput": 1.7543584808213624,
+      "cycle_time": 11.400178594420636,
+      "relative_throughput": 1.0664822021148306,
+      "queue_length_sum": 20.0,
+      "zero_population_queues": {
+        "cpu": 0.0,
+        "disk": 0.0,
+        "think": 0.0
+      },
+      "stations": [
+        {
+          "name": "cpu",
+          "type": "single",
+          "mean_service_time": 0.5,
+          "visit_ratio": 1.0,
+          "residence_time": 3.2487349561693004,
+          "mean_queue_length": 5.699445722296429,
+          "load": 0.8771792404106812,
+          "load_meaning": "utilization"
+        },
+        {
+          "name": "disk",
+          "type": "single",
+          "mean_service_time": 0.8,
+          "visit_ratio": 0.7,
+          "residence_time": 9.502062340359052,
+          "mean_queue_length": 11.66901655647153,
+          "load": 0.9824407492599629,
+          "load_meaning": "utilization"
+        },
+        {
+          "name": "think",
+          "type": "infinite",
+          "mean_service_time": 5.0,
+          "visit_ratio": 0.3,
+          "residence_time": 5.0,
+          "mean_queue_length": 2.6315377212320437,
+          "load": 2.6315377212320437,
+          "load_meaning": "mean_busy_servers"
+        }
+      ]
+    },
+    {
+      "name": "faster-disk",
+      "population": 10,
+      "reference_station": "cpu",
+      "throughput": 1.9719147418992882,
+      "cycle_time": 5.071213165315811,
+      "relative_throughput": 1.198735605814642,
+      "queue_length_sum": 9.999999999999998,
+      "zero_population_queues": {
+        "cpu": 0.0,
+        "disk": 0.0,
+        "think": 0.0
+      },
+      "stations": [
+        {
+          "name": "cpu",
+          "type": "single",
+          "mean_service_time": 0.5,
+          "visit_ratio": 1.0,
+          "residence_time": 2.978184965790788,
+          "mean_queue_length": 5.872726838145682,
+          "load": 0.9859573709496441,
+          "load_meaning": "utilization"
+        },
+        {
+          "name": "disk",
+          "type": "single",
+          "mean_service_time": 0.4,
+          "visit_ratio": 0.7,
+          "residence_time": 0.8471831421786039,
+          "mean_queue_length": 1.1694010490053848,
+          "load": 0.5521361277318007,
+          "load_meaning": "utilization"
+        },
+        {
+          "name": "think",
+          "type": "infinite",
+          "mean_service_time": 5.0,
+          "visit_ratio": 0.3,
+          "residence_time": 5.0,
+          "mean_queue_length": 2.957872112848932,
+          "load": 2.957872112848932,
+          "load_meaning": "mean_busy_servers"
+        }
+      ]
+    }
+  ]
+}
