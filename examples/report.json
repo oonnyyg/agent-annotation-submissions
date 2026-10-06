@@ -1,0 +1,42 @@
+{
+  "n_samples": 3,
+  "n_components": 4,
+  "components": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "coordinates": [
+    "balance_1",
+    "balance_2",
+    "balance_3"
+  ],
+  "delta": 1e-06,
+  "pairwise_distances": [
+    {
+      "sample_i": 0,
+      "sample_j": 1,
+      "balance_distance": 11.22893960061337,
+      "clr_distance": 11.22893960061337,
+      "abs_diff": 0.0
+    },
+    {
+      "sample_i": 0,
+      "sample_j": 2,
+      "balance_distance": 21.89929914580087,
+      "clr_distance": 21.899299145800867,
+      "abs_diff": 3.552713678800501e-15
+    },
+    {
+      "sample_i": 1,
+      "sample_j": 2,
+      "balance_distance": 12.959935028304495,
+      "clr_distance": 12.959935028304495,
+      "abs_diff": 0.0
+    }
+  ],
+  "max_balance_clr_distance_diff": 3.552713678800501e-15,
+  "distance_tolerance": 1e-09,
+  "distances_match": true
+}
