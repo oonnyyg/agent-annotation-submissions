@@ -1,0 +1,142 @@
+{
+  "cases": [
+    {
+      "case": "base",
+      "components": [
+        "A",
+        "B",
+        "C"
+      ],
+      "mixed_feed": {
+        "A": 60.0,
+        "B": 50.0,
+        "C": 5.0
+      },
+      "stages": [
+        {
+          "stage": 1,
+          "feed_total": 115.0,
+          "balance_residual": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0
+          },
+          "status": "solved",
+          "phase": "vapor",
+          "vapor_fraction": 1.0,
+          "degenerate": false,
+          "iterations": 0,
+          "equilibrium_residual": 0.0
+        },
+        {
+          "stage": 2,
+          "feed_total": 115.0,
+          "balance_residual": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0
+          },
+          "status": "solved",
+          "phase": "vapor",
+          "vapor_fraction": 1.0,
+          "degenerate": false,
+          "iterations": 0,
+          "equilibrium_residual": 0.0
+        }
+      ],
+      "products": {
+        "L1": {
+          "total": 0.0,
+          "composition": null
+        },
+        "V2": {
+          "total": 115.0,
+          "composition": {
+            "A": 0.5217391304347826,
+            "B": 0.43478260869565216,
+            "C": 0.043478260869565216
+          }
+        },
+        "L2": {
+          "total": 0.0,
+          "composition": null
+        }
+      },
+      "overall_balance_residual": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0
+      },
+      "tolerance": 1e-12
+    },
+    {
+      "case": "highK",
+      "components": [
+        "A",
+        "B",
+        "C"
+      ],
+      "mixed_feed": {
+        "A": 60.0,
+        "B": 50.0,
+        "C": 5.0
+      },
+      "stages": [
+        {
+          "stage": 1,
+          "feed_total": 115.0,
+          "balance_residual": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0
+          },
+          "status": "solved",
+          "phase": "vapor",
+          "vapor_fraction": 1.0,
+          "degenerate": false,
+          "iterations": 0,
+          "equilibrium_residual": 0.0
+        },
+        {
+          "stage": 2,
+          "feed_total": 115.0,
+          "balance_residual": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0
+          },
+          "status": "solved",
+          "phase": "vapor",
+          "vapor_fraction": 1.0,
+          "degenerate": false,
+          "iterations": 0,
+          "equilibrium_residual": 0.0
+        }
+      ],
+      "products": {
+        "L1": {
+          "total": 0.0,
+          "composition": null
+        },
+        "V2": {
+          "total": 115.0,
+          "composition": {
+            "A": 0.5217391304347826,
+            "B": 0.43478260869565216,
+            "C": 0.043478260869565216
+          }
+        },
+        "L2": {
+          "total": 0.0,
+          "composition": null
+        }
+      },
+      "overall_balance_residual": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0
+      },
+      "tolerance": 1e-12
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "feeds": [
+    {"name": "F1", "flows": {"A": 60, "B": 40}},
+    {"name": "F2", "flows": {"B": 10, "C": 5}}
+  ],
+  "cases": [
+    {"name": "base", "stages": [{"k_values": {"A": 2.0, "B": 1.0, "C": 0.3}}, {"k_values": {"A": 3.0, "B": 1.2, "C": 0.2}}]},
+    {"name": "highK", "stages": [{"k_values": {"A": 4.0, "B": 2.0, "C": 0.6}}, {"k_values": {"A": 5.0, "B": 2.5, "C": 0.4}}]}
+  ]
+}
