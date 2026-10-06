@@ -1,0 +1,6 @@
+{"op":"create_order","id":"PO1","supplier":"SUP1","lines":{"1":{"sku":"WIDGET","qty":10,"unit_price":250}}}
+{"op":"receive","id":"R1","order_id":"PO1","line":1,"qty":6,"date":"2026-01-10"}
+{"op":"invoice","id":"INV1","supplier":"SUP1","lines":[{"order_id":"PO1","line":1,"qty":4,"unit_price":250}]}
+{"op":"balance","id":"q1","order_id":"PO1","line":1}
+{"op":"void_invoice","id":"V1","invoice_id":"INV1"}
+{"op":"invoice_detail","id":"q2","invoice_id":"INV1"}
