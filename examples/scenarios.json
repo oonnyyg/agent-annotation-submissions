@@ -1,0 +1,40 @@
+{
+  "scenarios": [
+    {
+      "name": "push_stop_reverse",
+      "mass": 2.0,
+      "gravity": 9.81,
+      "mu_static": 0.3,
+      "mu_kinetic": 0.25,
+      "x0": 0.0,
+      "v0": 0.0,
+      "t_end": 6.0,
+      "sample_dt": 0.25,
+      "force_segments": [
+        [0.0, 12.0],
+        [2.0, -10.0],
+        [4.0, 3.0]
+      ]
+    },
+    {
+      "name": "stuck_forever",
+      "mass": 1.0,
+      "gravity": 9.81,
+      "mu_static": 0.5,
+      "mu_kinetic": 0.4,
+      "t_end": 3.0,
+      "sample_dt": 0.5,
+      "force_segments": [[0.0, 2.0], [1.5, -4.0]]
+    },
+    {
+      "name": "bad_coefficients",
+      "mass": 1.0,
+      "gravity": 9.81,
+      "mu_static": 0.2,
+      "mu_kinetic": 0.4,
+      "t_end": 1.0,
+      "sample_dt": 0.1,
+      "force_segments": [[0.0, 1.0]]
+    }
+  ]
+}

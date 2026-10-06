@@ -1,0 +1,41 @@
+{
+  "scenarios": [
+    {
+      "name": "push_stop_reverse",
+      "status": "ok",
+      "trajectory_csv": "out\\push_stop_reverse_trajectory.csv",
+      "events_json": "out\\push_stop_reverse_events.json",
+      "energy": {
+        "distance_total": 12.772832858530172,
+        "displacement_net": 8.17181658796429,
+        "work_external": 62.650745171090506,
+        "friction_dissipation": 62.65074517109049,
+        "kinetic_energy_initial": 0.0,
+        "kinetic_energy_final": 0.0,
+        "kinetic_energy_change": 0.0,
+        "residual": 1.4210854715202004e-14
+      }
+    },
+    {
+      "name": "stuck_forever",
+      "status": "ok",
+      "trajectory_csv": "out\\stuck_forever_trajectory.csv",
+      "events_json": "out\\stuck_forever_events.json",
+      "energy": {
+        "distance_total": 0.0,
+        "displacement_net": 0.0,
+        "work_external": 0.0,
+        "friction_dissipation": 0.0,
+        "kinetic_energy_initial": 0.0,
+        "kinetic_energy_final": 0.0,
+        "kinetic_energy_change": 0.0,
+        "residual": 0.0
+      }
+    },
+    {
+      "name": "bad_coefficients",
+      "status": "error",
+      "error": "scenario 'bad_coefficients': mu_static (0.2) must be >= mu_kinetic (0.4)"
+    }
+  ]
+}

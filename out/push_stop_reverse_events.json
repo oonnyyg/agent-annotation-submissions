@@ -1,0 +1,71 @@
+{
+  "name": "push_stop_reverse",
+  "events": [
+    {
+      "t": 0.0,
+      "kind": "start_moving",
+      "x": 0.0,
+      "v": 0.0,
+      "force": 12.0,
+      "detail": "initial force exceeds max static friction"
+    },
+    {
+      "t": 2.0,
+      "kind": "force_switch",
+      "x": 7.095,
+      "v": 7.095,
+      "force": -10.0,
+      "detail": "force changed while sliding"
+    },
+    {
+      "t": 2.952029520295203,
+      "kind": "stop",
+      "x": 10.472324723247231,
+      "v": 0.0,
+      "force": -10.0,
+      "detail": "velocity reached zero"
+    },
+    {
+      "t": 2.952029520295203,
+      "kind": "start_moving",
+      "x": 10.472324723247231,
+      "v": 0.0,
+      "force": -10.0,
+      "detail": "force exceeds static friction, restarts"
+    },
+    {
+      "t": 4.0,
+      "kind": "force_switch",
+      "x": 9.07343881483095,
+      "v": -2.6697047970479706,
+      "force": 3.0,
+      "detail": "force changed while sliding"
+    },
+    {
+      "t": 4.675447133977981,
+      "kind": "stop",
+      "x": 8.17181658796429,
+      "v": 0.0,
+      "force": 3.0,
+      "detail": "velocity reached zero"
+    },
+    {
+      "t": 4.675447133977981,
+      "kind": "stick",
+      "x": 8.17181658796429,
+      "v": 0.0,
+      "force": 3.0,
+      "detail": "force within static friction, block sticks"
+    }
+  ],
+  "energy": {
+    "distance_total": 12.772832858530172,
+    "displacement_net": 8.17181658796429,
+    "work_external": 62.650745171090506,
+    "friction_dissipation": 62.65074517109049,
+    "kinetic_energy_initial": 0.0,
+    "kinetic_energy_final": 0.0,
+    "kinetic_energy_change": 0.0,
+    "residual": 1.4210854715202004e-14
+  }
+}

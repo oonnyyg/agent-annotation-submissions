@@ -1,0 +1,31 @@
+{
+  "name": "stuck_forever",
+  "events": [
+    {
+      "t": 0.0,
+      "kind": "stick",
+      "x": 0.0,
+      "v": 0.0,
+      "force": 2.0,
+      "detail": "initial force within static friction"
+    },
+    {
+      "t": 1.5,
+      "kind": "force_switch",
+      "x": 0.0,
+      "v": 0.0,
+      "force": -4.0,
+      "detail": "force changed while stuck"
+    }
+  ],
+  "energy": {
+    "distance_total": 0.0,
+    "displacement_net": 0.0,
+    "work_external": 0.0,
+    "friction_dissipation": 0.0,
+    "kinetic_energy_initial": 0.0,
+    "kinetic_energy_final": 0.0,
+    "kinetic_energy_change": 0.0,
+    "residual": 0.0
+  }
+}
