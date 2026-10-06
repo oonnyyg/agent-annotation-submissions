@@ -1,0 +1,18 @@
+{
+  "supports": {
+    "left": {"x": 0.0, "y": 30.0},
+    "right": {"x": 120.0, "y": 34.0}
+  },
+  "linear_density": 2.2,
+  "gravity": 9.81,
+  "terrain": [[-5.0, 0.0], [40.0, 6.0], [80.0, 2.0], [125.0, 8.0]],
+  "max_tension": 6000.0,
+  "min_clearance": 3.0,
+  "samples": 241,
+  "cases": [
+    {"name": "taut", "length": 121.0},
+    {"name": "medium", "length": 135.0},
+    {"name": "slack", "length": 170.0},
+    {"name": "too_short", "length": 100.0}
+  ]
+}

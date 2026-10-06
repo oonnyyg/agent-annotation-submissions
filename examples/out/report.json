@@ -1,0 +1,149 @@
+{
+  "supports": {
+    "left": {
+      "x": 0.0,
+      "y": 30.0
+    },
+    "right": {
+      "x": 120.0,
+      "y": 34.0
+    }
+  },
+  "span": 120.0,
+  "chord": 120.06664815842908,
+  "weight_per_length": 21.582000000000004,
+  "limits": {
+    "max_tension": 6000.0,
+    "min_clearance": 3.0
+  },
+  "cases": [
+    {
+      "name": "taut",
+      "length": 121.0,
+      "solved": true,
+      "parameter_a": 277.990319532734,
+      "horizontal_tension": 5999.587076155467,
+      "tension_left": 6100.06849556086,
+      "tension_right": 6186.396495560861,
+      "max_tension": 6186.396495560861,
+      "vertex": {
+        "x": 50.80688758396481,
+        "y": 25.344202603771976,
+        "within_span": true
+      },
+      "lowest_point_in_span": {
+        "x": 50.80688758396481,
+        "y": 25.344202603771976
+      },
+      "clearance": {
+        "min_clearance": 19.554288207600962,
+        "x": 40.0,
+        "cable_y": 25.554288207600962,
+        "terrain_y": 6.0,
+        "collision": false
+      },
+      "residuals": {
+        "endpoint_y": 5.684341886080802e-14,
+        "arc_length": 1.4210854715202004e-14
+      },
+      "checks": {
+        "max_tension": {
+          "limit": 6000.0,
+          "pass": false
+        },
+        "min_clearance": {
+          "limit": 3.0,
+          "pass": true
+        }
+      },
+      "passed": false
+    },
+    {
+      "name": "medium",
+      "length": 135.0,
+      "solved": true,
+      "parameter_a": 70.68017309739692,
+      "horizontal_tension": 1525.4194957880206,
+      "tension_left": 2066.6160344421664,
+      "tension_right": 2152.944034442167,
+      "max_tension": 2152.944034442167,
+      "vertex": {
+        "x": 57.90515947477661,
+        "y": 4.923707781755823,
+        "within_span": true
+      },
+      "lowest_point_in_span": {
+        "x": 57.90515947477661,
+        "y": 4.923707781755823
+      },
+      "clearance": {
+        "min_clearance": 0.3611164848884352,
+        "x": 50.84886949716144,
+        "cable_y": 5.276229535172291,
+        "terrain_y": 4.915113050283856,
+        "collision": false
+      },
+      "residuals": {
+        "endpoint_y": 1.4210854715202004e-14,
+        "arc_length": 6.821210263296962e-13
+      },
+      "checks": {
+        "max_tension": {
+          "limit": 6000.0,
+          "pass": true
+        },
+        "min_clearance": {
+          "limit": 3.0,
+          "pass": false
+        }
+      },
+      "passed": false
+    },
+    {
+      "name": "slack",
+      "length": 170.0,
+      "solved": true,
+      "parameter_a": 40.13997931459798,
+      "horizontal_tension": 866.3010335676538,
+      "tension_left": 1985.671474127725,
+      "tension_right": 2071.9994741277233,
+      "max_tension": 2071.9994741277233,
+      "vertex": {
+        "x": 59.05535554388542,
+        "y": -21.865927187474327,
+        "within_span": true
+      },
+      "lowest_point_in_span": {
+        "x": 59.05535554388542,
+        "y": -21.865927187474327
+      },
+      "clearance": {
+        "min_clearance": -26.160924779266878,
+        "x": 55.04801768197928,
+        "cable_y": -21.665726547464807,
+        "terrain_y": 4.495198231802072,
+        "collision": true
+      },
+      "residuals": {
+        "endpoint_y": 7.105427357601002e-14,
+        "arc_length": 2.6147972675971687e-12
+      },
+      "checks": {
+        "max_tension": {
+          "limit": 6000.0,
+          "pass": true
+        },
+        "min_clearance": {
+          "limit": 3.0,
+          "pass": false
+        }
+      },
+      "passed": false
+    },
+    {
+      "name": "too_short",
+      "solved": false,
+      "error": "cable length 100.0 must be strictly greater than the support chord distance 120.06664815842908"
+    }
+  ]
+}
