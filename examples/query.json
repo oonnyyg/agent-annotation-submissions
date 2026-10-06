@@ -1,0 +1,10 @@
+{
+  "zone_file": "examples/sample.tzif",
+  "queries": [
+    {"type": "at", "unix": 2200086400},
+    {"type": "local", "local": "2039-09-20T07:20:00"},
+    {"type": "local", "local": "2039-09-20T07:40:00"},
+    {"type": "local", "local": "2039-09-20T08:00:00"},
+    {"type": "intervals"}
+  ]
+}

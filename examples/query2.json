@@ -1,0 +1,6 @@
+{
+  "zone_file": "examples/sample.tzif",
+  "queries": [
+    {"type": "local", "local": "2039-09-21T07:20:00"}
+  ]
+}
