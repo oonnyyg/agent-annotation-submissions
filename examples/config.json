@@ -1,0 +1,18 @@
+{
+  "feeds": [
+    {"methane": 30.0, "ethane": 20.0, "propane": 10.0},
+    {"methane": 10.0, "propane": 15.0, "butane": 25.0}
+  ],
+  "cases": [
+    {
+      "name": "base",
+      "stage1_k": {"methane": 4.0, "ethane": 1.5, "propane": 0.6, "butane": 0.2},
+      "stage2_k": {"methane": 5.0, "ethane": 2.0, "propane": 0.8, "butane": 0.3}
+    },
+    {
+      "name": "high_volatility",
+      "stage1_k": {"methane": 8.0, "ethane": 3.0, "propane": 1.2, "butane": 0.4},
+      "stage2_k": {"methane": 9.0, "ethane": 3.5, "propane": 1.5, "butane": 0.5}
+    }
+  ]
+}

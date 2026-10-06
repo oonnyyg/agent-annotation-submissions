@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "case": "base",
+      "status": "ok",
+      "stage1": {
+        "skipped": false,
+        "phase": "two_phase",
+        "vapor_fraction": 0.5906614168488886,
+        "degenerate": false,
+        "rr_residual": 8.867906409193438e-14,
+        "iterations": 35
+      },
+      "stage2": {
+        "skipped": false,
+        "phase": "vapor",
+        "vapor_fraction": 1.0,
+        "degenerate": false,
+        "rr_residual": 0.2793469126727662,
+        "iterations": 0
+      },
+      "products": {
+        "stage1_liquid": {
+          "total_flow": 45.02724414662461
+        },
+        "stage2_liquid": {
+          "total_flow": 0.0
+        },
+        "stage2_vapor": {
+          "total_flow": 64.97275585337539
+        }
+      },
+      "balance": {
+        "methane": {
+          "feed": 40.0,
+          "product": 40.0,
+          "residual": 0.0
+        },
+        "ethane": {
+          "feed": 20.0,
+          "product": 20.0,
+          "residual": 0.0
+        },
+        "propane": {
+          "feed": 25.0,
+          "product": 25.0,
+          "residual": 0.0
+        },
+        "butane": {
+          "feed": 25.0,
+          "product": 25.0,
+          "residual": 0.0
+        }
+      },
+      "max_balance_residual": 0.0,
+      "equilibrium_residual": 0.2793469126727662,
+      "warnings": []
+    },
+    {
+      "case": "high_volatility",
+      "status": "ok",
+      "stage1": {
+        "skipped": false,
+        "phase": "vapor",
+        "vapor_fraction": 1.0,
+        "degenerate": false,
+        "rr_residual": 0.13636363636363638,
+        "iterations": 0
+      },
+      "stage2": {
+        "skipped": false,
+        "phase": "vapor",
+        "vapor_fraction": 1.0,
+        "degenerate": false,
+        "rr_residual": 0.3015873015873016,
+        "iterations": 0
+      },
+      "products": {
+        "stage1_liquid": {
+          "total_flow": 0.0
+        },
+        "stage2_liquid": {
+          "total_flow": 0.0
+        },
+        "stage2_vapor": {
+          "total_flow": 110.0
+        }
+      },
+      "balance": {
+        "methane": {
+          "feed": 40.0,
+          "product": 40.0,
+          "residual": 0.0
+        },
+        "ethane": {
+          "feed": 20.0,
+          "product": 20.0,
+          "residual": 0.0
+        },
+        "propane": {
+          "feed": 25.0,
+          "product": 25.0,
+          "residual": 0.0
+        },
+        "butane": {
+          "feed": 25.0,
+          "product": 25.0,
+          "residual": 0.0
+        }
+      },
+      "max_balance_residual": 0.0,
+      "equilibrium_residual": 0.3015873015873016,
+      "warnings": []
+    }
+  ]
+}
