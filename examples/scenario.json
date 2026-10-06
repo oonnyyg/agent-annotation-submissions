@@ -1,0 +1,8 @@
+{
+  "column": {"depth": 2.0, "area": 0.05},
+  "fluid": {"density": 998.2, "viscosity": 1.002e-3, "gravity": 9.81},
+  "classes": [
+    {"diameter": 1.0e-4, "density": 2650.0, "mass": 0.02},
+    {"diameter": 2.0e-5, "density": 2650.0, "mass": 0.01}
+  ]
+}
