@@ -1,0 +1,31 @@
+{
+  "battery": {
+    "capacity_ah": 2.5,
+    "r0_ohm": 0.05,
+    "ocv_grid": [
+      {"soc": 0.0, "voltage": 3.0},
+      {"soc": 0.2, "voltage": 3.4},
+      {"soc": 0.5, "voltage": 3.7},
+      {"soc": 0.8, "voltage": 3.9},
+      {"soc": 1.0, "voltage": 4.2}
+    ],
+    "rc_branches": [
+      {"r_ohm": 0.02, "c_f": 3000.0},
+      {"r_ohm": 0.03, "c_f": 30000.0}
+    ]
+  },
+  "cutoff_voltage_v": 3.0,
+  "initial_soc": 1.0,
+  "initial_v_pol_v": [0.0, 0.0],
+  "sample_dt_s": 1.0,
+  "scenarios": {
+    "pulse_rest": [
+      {"duration_s": 30, "current_a": 10.0},
+      {"duration_s": 120, "current_a": 0.0},
+      {"duration_s": 30, "current_a": 10.0}
+    ],
+    "deep_discharge": [
+      {"duration_s": 100000, "current_a": 2.5}
+    ]
+  }
+}
