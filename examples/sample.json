@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "A",
+      "price": 1000,
+      "cost": 600,
+      "salvage": 100,
+      "shortage_penalty": 50,
+      "demand": [
+        {"quantity": 0, "probability": "0.2"},
+        {"quantity": 1, "probability": "0.5"},
+        {"quantity": 2, "probability": "0.3"}
+      ]
+    },
+    {
+      "id": "B",
+      "price": 1500,
+      "cost": 900,
+      "salvage": 200,
+      "shortage_penalty": 0,
+      "demand": [
+        {"quantity": 0, "probability": "0.4"},
+        {"quantity": 1, "probability": "0.6"}
+      ]
+    }
+  ],
+  "budgets": [0, 600, 1200, 1500]
+}
