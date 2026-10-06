@@ -1,0 +1,12 @@
+{
+  "scans": [
+    {"duration_ms": 10, "inputs": {"Start": true,  "Stop": false, "Part": false}},
+    {"duration_ms": 10, "inputs": {"Start": false, "Stop": false, "Part": true}},
+    {"duration_ms": 10, "inputs": {"Start": false, "Stop": false, "Part": false}},
+    {"duration_ms": 10, "inputs": {"Start": false, "Stop": false, "Part": true}},
+    {"duration_ms": 10, "inputs": {"Start": false, "Stop": false, "Part": false}},
+    {"duration_ms": 10, "inputs": {"Start": false, "Stop": false, "Part": true}},
+    {"duration_ms": 10, "inputs": {"Start": false, "Stop": false, "Part": false}},
+    {"duration_ms": 10, "inputs": {"Start": false, "Stop": true,  "Part": false}}
+  ]
+}

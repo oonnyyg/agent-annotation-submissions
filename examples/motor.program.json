@@ -1,0 +1,21 @@
+{
+  "inputs": ["Start", "Stop", "Part"],
+  "coils": ["Motor", "BatchDone"],
+  "timers": [{"name": "RunLimit", "preset": 30}],
+  "counters": [{"name": "Parts", "preset": 3}],
+  "statements": [
+    {"coil": {"target": "Motor", "condition": {"and": [
+      {"or": [{"contact": "Start"}, {"contact": "Motor"}]},
+      {"not": {"contact": "Stop"}},
+      {"not": {"contact": "BatchDone"}}
+    ]}}},
+    {"ton": {"timer": "RunLimit", "condition": {"contact": "Motor"}}},
+    {"ctu": {"counter": "Parts",
+      "condition": {"contact": "Part"},
+      "reset": {"contact": "Stop"}}},
+    {"coil": {"target": "BatchDone", "condition": {"or": [
+      {"contact": "Parts"},
+      {"contact": "RunLimit"}
+    ]}}}
+  ]
+}
