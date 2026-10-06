@@ -1,0 +1,6 @@
+{"id":"r1","type":"ride","card":"card-001","board":"2026-10-05T08:00:00+08:00","alight":"2026-10-05T08:20:00+08:00","from_zone":1,"to_zone":1}
+{"id":"r2","type":"ride","card":"card-001","board":"2026-10-05T09:00:00+08:00","alight":"2026-10-05T09:20:00+08:00","from_zone":1,"to_zone":3}
+{"id":"r2","type":"ride","card":"card-001","board":"2026-10-05T09:00:00+08:00","alight":"2026-10-05T09:20:00+08:00","from_zone":1,"to_zone":3}
+{"id":"r2","type":"ride","card":"card-001","board":"2026-10-05T09:05:00+08:00","alight":"2026-10-05T09:20:00+08:00","from_zone":1,"to_zone":3}
+{"id":"r3","type":"ride","card":"card-002","board":"2026-10-04T10:00:00+08:00","alight":"2026-10-04T10:30:00+08:00","from_zone":2,"to_zone":4}
+{"id":"v1","type":"revoke","card":"card-002","target_id":"r3"}

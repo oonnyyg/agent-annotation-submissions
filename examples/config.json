@@ -1,0 +1,14 @@
+{
+  "utc_offset_seconds": 28800,
+  "service_day_start_hour": 4,
+  "transfer_window_seconds": 5400,
+  "fares": [
+    {"width": 1, "fare": 200},
+    {"width": 2, "fare": 300},
+    {"width": 3, "fare": 400},
+    {"width": 4, "fare": 500},
+    {"width": 5, "fare": 600}
+  ],
+  "daily_cap": 1500,
+  "weekly_cap": 5000
+}
