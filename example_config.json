@@ -1,0 +1,9 @@
+{
+  "section": [[-1.0, -0.5], [1.0, -0.5], [1.0, 0.5], [-1.0, 0.5]],
+  "mass_per_length": 1000.0,
+  "fluid_density": 1000.0,
+  "gravity": 9.81,
+  "center_of_gravity": [0.0, -0.2],
+  "angles_deg": [-30, -10, 0, 10, 30, 45],
+  "moment_tolerance": 1e-9
+}
