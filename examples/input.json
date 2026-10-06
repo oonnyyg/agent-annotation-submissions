@@ -1,0 +1,30 @@
+{
+  "step": 0.05,
+  "diode_drop": 0.5,
+  "conditions": [
+    {
+      "name": "uniform",
+      "modules": [
+        {"voc": 40, "isc": 10, "vknee": 32, "iknee": 9.5},
+        {"voc": 40, "isc": 10, "vknee": 32, "iknee": 9.5},
+        {"voc": 40, "isc": 10, "vknee": 32, "iknee": 9.5}
+      ]
+    },
+    {
+      "name": "one_shaded",
+      "modules": [
+        {"voc": 40, "isc": 10, "vknee": 32, "iknee": 9.5},
+        {"voc": 40, "isc": 10, "vknee": 32, "iknee": 9.5},
+        {"voc": 40, "isc": 4, "vknee": 32, "iknee": 3.8}
+      ]
+    },
+    {
+      "name": "heavy_shade",
+      "modules": [
+        {"voc": 40, "isc": 10, "vknee": 32, "iknee": 9.5},
+        {"voc": 40, "isc": 10, "vknee": 32, "iknee": 9.5},
+        {"voc": 40, "isc": 2, "vknee": 32, "iknee": 1.9}
+      ]
+    }
+  ]
+}

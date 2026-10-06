@@ -1,0 +1,76 @@
+{
+  "conditions": [
+    {
+      "current_a": 9.5,
+      "voltage_v": 96.0,
+      "power_w": 912.0,
+      "modules": [
+        {
+          "index": 0,
+          "voltage_v": 32.0,
+          "bypassed": false
+        },
+        {
+          "index": 1,
+          "voltage_v": 32.0,
+          "bypassed": false
+        },
+        {
+          "index": 2,
+          "voltage_v": 32.0,
+          "bypassed": false
+        }
+      ],
+      "name": "uniform",
+      "csv": "out\\uniform.csv"
+    },
+    {
+      "current_a": 9.5,
+      "voltage_v": 63.5,
+      "power_w": 603.25,
+      "modules": [
+        {
+          "index": 0,
+          "voltage_v": 32.0,
+          "bypassed": false
+        },
+        {
+          "index": 1,
+          "voltage_v": 32.0,
+          "bypassed": false
+        },
+        {
+          "index": 2,
+          "voltage_v": -0.5,
+          "bypassed": true
+        }
+      ],
+      "name": "one_shaded",
+      "csv": "out\\one_shaded.csv"
+    },
+    {
+      "current_a": 9.5,
+      "voltage_v": 63.5,
+      "power_w": 603.25,
+      "modules": [
+        {
+          "index": 0,
+          "voltage_v": 32.0,
+          "bypassed": false
+        },
+        {
+          "index": 1,
+          "voltage_v": 32.0,
+          "bypassed": false
+        },
+        {
+          "index": 2,
+          "voltage_v": -0.5,
+          "bypassed": true
+        }
+      ],
+      "name": "heavy_shade",
+      "csv": "out\\heavy_shade.csv"
+    }
+  ]
+}
