@@ -1,0 +1,1 @@
+[{"id":"J1","release":0,"route":[{"station":"A","duration":2},{"station":"B","duration":1}]},{"id":"J2","release":1,"route":[{"station":"B","duration":3}]},{"id":"J3","release":0,"route":[{"station":"A","duration":1}]}]

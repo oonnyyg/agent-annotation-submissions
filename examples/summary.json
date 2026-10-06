@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "makespan": 5,
+  "jobs": [
+    {
+      "job_id": "J1",
+      "processing": 3,
+      "queue": 2,
+      "blocked": 0,
+      "completion": 5,
+      "finished": true
+    },
+    {
+      "job_id": "J2",
+      "processing": 3,
+      "queue": 0,
+      "blocked": 0,
+      "completion": 4,
+      "finished": true
+    },
+    {
+      "job_id": "J3",
+      "processing": 1,
+      "queue": 2,
+      "blocked": 0,
+      "completion": 3,
+      "finished": true
+    }
+  ]
+}
