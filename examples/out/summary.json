@@ -1,0 +1,530 @@
+{
+  "scenarios": [
+    {
+      "name": "neutral",
+      "parameters": {
+        "population_size": 20,
+        "initial_count": 10,
+        "generations": 60,
+        "selection_coefficient": 0.0,
+        "mutation_to_target": 0.0,
+        "mutation_to_ordinary": 0.0
+      },
+      "csv": "examples\\out\\neutral_generations.csv",
+      "final_expected_frequency": 0.5000000000000007,
+      "final_expected_heterozygosity": 0.02303489949347613,
+      "final_prob_untouched_boundary": 0.0645359570167031,
+      "boundary_hit_cumulative": 0.935464042983297,
+      "boundary_hit_increments": [
+        {
+          "generation": 0,
+          "increment": 0.0
+        },
+        {
+          "generation": 1,
+          "increment": 1.9073486328125e-06
+        },
+        {
+          "generation": 2,
+          "increment": 0.0004393361660804951
+        },
+        {
+          "generation": 3,
+          "increment": 0.0036354423632712907
+        },
+        {
+          "generation": 4,
+          "increment": 0.010063196649235384
+        },
+        {
+          "generation": 5,
+          "increment": 0.017407328047659543
+        },
+        {
+          "generation": 6,
+          "increment": 0.023859442578473722
+        },
+        {
+          "generation": 7,
+          "increment": 0.02875638254413404
+        },
+        {
+          "generation": 8,
+          "increment": 0.03209202913497311
+        },
+        {
+          "generation": 9,
+          "increment": 0.03411064371794814
+        },
+        {
+          "generation": 10,
+          "increment": 0.03510598003633103
+        },
+        {
+          "generation": 11,
+          "increment": 0.03534315565030721
+        },
+        {
+          "generation": 12,
+          "increment": 0.03503696365392184
+        },
+        {
+          "generation": 13,
+          "increment": 0.03435251651892346
+        },
+        {
+          "generation": 14,
+          "increment": 0.03341308631873352
+        },
+        {
+          "generation": 15,
+          "increment": 0.032309059345769886
+        },
+        {
+          "generation": 16,
+          "increment": 0.031105871005237762
+        },
+        {
+          "generation": 17,
+          "increment": 0.02985039493944075
+        },
+        {
+          "generation": 18,
+          "increment": 0.028575856577514935
+        },
+        {
+          "generation": 19,
+          "increment": 0.027305520541212158
+        },
+        {
+          "generation": 20,
+          "increment": 0.02605541991609439
+        },
+        {
+          "generation": 21,
+          "increment": 0.02483636002508921
+        },
+        {
+          "generation": 22,
+          "increment": 0.02365538228792574
+        },
+        {
+          "generation": 23,
+          "increment": 0.02251683023896245
+        },
+        {
+          "generation": 24,
+          "increment": 0.021423124091316026
+        },
+        {
+          "generation": 25,
+          "increment": 0.020375322529618434
+        },
+        {
+          "generation": 26,
+          "increment": 0.019373529506207132
+        },
+        {
+          "generation": 27,
+          "increment": 0.018417188284293562
+        },
+        {
+          "generation": 28,
+          "increment": 0.01750529353761071
+        },
+        {
+          "generation": 29,
+          "increment": 0.0166365439425068
+        },
+        {
+          "generation": 30,
+          "increment": 0.015809451585269474
+        },
+        {
+          "generation": 31,
+          "increment": 0.01502242005272919
+        },
+        {
+          "generation": 32,
+          "increment": 0.014273799831598655
+        },
+        {
+          "generation": 33,
+          "increment": 0.013561927283326947
+        },
+        {
+          "generation": 34,
+          "increment": 0.012885151746236945
+        },
+        {
+          "generation": 35,
+          "increment": 0.01224185407006917
+        },
+        {
+          "generation": 36,
+          "increment": 0.011630458982018588
+        },
+        {
+          "generation": 37,
+          "increment": 0.011049443024960637
+        },
+        {
+          "generation": 38,
+          "increment": 0.010497339330185346
+        },
+        {
+          "generation": 39,
+          "increment": 0.009972740139420039
+        },
+        {
+          "generation": 40,
+          "increment": 0.009474297738471998
+        },
+        {
+          "generation": 41,
+          "increment": 0.009000724281476025
+        },
+        {
+          "generation": 42,
+          "increment": 0.008550790851602375
+        },
+        {
+          "generation": 43,
+          "increment": 0.008123326007439757
+        },
+        {
+          "generation": 44,
+          "increment": 0.007717213994142741
+        },
+        {
+          "generation": 45,
+          "increment": 0.007331392747567389
+        },
+        {
+          "generation": 46,
+          "increment": 0.006964851782752496
+        },
+        {
+          "generation": 47,
+          "increment": 0.0066166300314003945
+        },
+        {
+          "generation": 48,
+          "increment": 0.006285813673691035
+        },
+        {
+          "generation": 49,
+          "increment": 0.005971533995807202
+        },
+        {
+          "generation": 50,
+          "increment": 0.005672965294482496
+        },
+        {
+          "generation": 51,
+          "increment": 0.005389322842643318
+        },
+        {
+          "generation": 52,
+          "increment": 0.005119860925025269
+        },
+        {
+          "generation": 53,
+          "increment": 0.0048638709489396414
+        },
+        {
+          "generation": 54,
+          "increment": 0.004620679632735533
+        },
+        {
+          "generation": 55,
+          "increment": 0.0043896472726545205
+        },
+        {
+          "generation": 56,
+          "increment": 0.004170166087487451
+        },
+        {
+          "generation": 57,
+          "increment": 0.003961658639562979
+        },
+        {
+          "generation": 58,
+          "increment": 0.0037635763300098157
+        },
+        {
+          "generation": 59,
+          "increment": 0.0035753979658566665
+        },
+        {
+          "generation": 60,
+          "increment": 0.0033966283963072635
+        }
+      ],
+      "max_probability_sum_error": 1.1102230246251565e-15
+    },
+    {
+      "name": "selected_with_mutation",
+      "parameters": {
+        "population_size": 20,
+        "initial_count": 0,
+        "generations": 60,
+        "selection_coefficient": 0.1,
+        "mutation_to_target": 0.01,
+        "mutation_to_ordinary": 0.001
+      },
+      "csv": "examples\\out\\selected_with_mutation_generations.csv",
+      "final_expected_frequency": 0.778018693629932,
+      "final_expected_heterozygosity": 0.1072561988060146,
+      "final_prob_untouched_boundary": 0.0,
+      "boundary_hit_cumulative": 1.0,
+      "boundary_hit_increments": [
+        {
+          "generation": 0,
+          "increment": 1.0
+        },
+        {
+          "generation": 1,
+          "increment": 0.0
+        },
+        {
+          "generation": 2,
+          "increment": 0.0
+        },
+        {
+          "generation": 3,
+          "increment": 0.0
+        },
+        {
+          "generation": 4,
+          "increment": 0.0
+        },
+        {
+          "generation": 5,
+          "increment": 0.0
+        },
+        {
+          "generation": 6,
+          "increment": 0.0
+        },
+        {
+          "generation": 7,
+          "increment": 0.0
+        },
+        {
+          "generation": 8,
+          "increment": 0.0
+        },
+        {
+          "generation": 9,
+          "increment": 0.0
+        },
+        {
+          "generation": 10,
+          "increment": 0.0
+        },
+        {
+          "generation": 11,
+          "increment": 0.0
+        },
+        {
+          "generation": 12,
+          "increment": 0.0
+        },
+        {
+          "generation": 13,
+          "increment": 0.0
+        },
+        {
+          "generation": 14,
+          "increment": 0.0
+        },
+        {
+          "generation": 15,
+          "increment": 0.0
+        },
+        {
+          "generation": 16,
+          "increment": 0.0
+        },
+        {
+          "generation": 17,
+          "increment": 0.0
+        },
+        {
+          "generation": 18,
+          "increment": 0.0
+        },
+        {
+          "generation": 19,
+          "increment": 0.0
+        },
+        {
+          "generation": 20,
+          "increment": 0.0
+        },
+        {
+          "generation": 21,
+          "increment": 0.0
+        },
+        {
+          "generation": 22,
+          "increment": 0.0
+        },
+        {
+          "generation": 23,
+          "increment": 0.0
+        },
+        {
+          "generation": 24,
+          "increment": 0.0
+        },
+        {
+          "generation": 25,
+          "increment": 0.0
+        },
+        {
+          "generation": 26,
+          "increment": 0.0
+        },
+        {
+          "generation": 27,
+          "increment": 0.0
+        },
+        {
+          "generation": 28,
+          "increment": 0.0
+        },
+        {
+          "generation": 29,
+          "increment": 0.0
+        },
+        {
+          "generation": 30,
+          "increment": 0.0
+        },
+        {
+          "generation": 31,
+          "increment": 0.0
+        },
+        {
+          "generation": 32,
+          "increment": 0.0
+        },
+        {
+          "generation": 33,
+          "increment": 0.0
+        },
+        {
+          "generation": 34,
+          "increment": 0.0
+        },
+        {
+          "generation": 35,
+          "increment": 0.0
+        },
+        {
+          "generation": 36,
+          "increment": 0.0
+        },
+        {
+          "generation": 37,
+          "increment": 0.0
+        },
+        {
+          "generation": 38,
+          "increment": 0.0
+        },
+        {
+          "generation": 39,
+          "increment": 0.0
+        },
+        {
+          "generation": 40,
+          "increment": 0.0
+        },
+        {
+          "generation": 41,
+          "increment": 0.0
+        },
+        {
+          "generation": 42,
+          "increment": 0.0
+        },
+        {
+          "generation": 43,
+          "increment": 0.0
+        },
+        {
+          "generation": 44,
+          "increment": 0.0
+        },
+        {
+          "generation": 45,
+          "increment": 0.0
+        },
+        {
+          "generation": 46,
+          "increment": 0.0
+        },
+        {
+          "generation": 47,
+          "increment": 0.0
+        },
+        {
+          "generation": 48,
+          "increment": 0.0
+        },
+        {
+          "generation": 49,
+          "increment": 0.0
+        },
+        {
+          "generation": 50,
+          "increment": 0.0
+        },
+        {
+          "generation": 51,
+          "increment": 0.0
+        },
+        {
+          "generation": 52,
+          "increment": 0.0
+        },
+        {
+          "generation": 53,
+          "increment": 0.0
+        },
+        {
+          "generation": 54,
+          "increment": 0.0
+        },
+        {
+          "generation": 55,
+          "increment": 0.0
+        },
+        {
+          "generation": 56,
+          "increment": 0.0
+        },
+        {
+          "generation": 57,
+          "increment": 0.0
+        },
+        {
+          "generation": 58,
+          "increment": 0.0
+        },
+        {
+          "generation": 59,
+          "increment": 0.0
+        },
+        {
+          "generation": 60,
+          "increment": 0.0
+        }
+      ],
+      "max_probability_sum_error": 3.552713678800501e-15
+    }
+  ]
+}
