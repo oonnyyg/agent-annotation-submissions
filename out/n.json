@@ -1,0 +1,28 @@
+{
+  "scenarios": [
+    {
+      "name": "base",
+      "converged": false,
+      "reason": "iteration limit reached",
+      "iterations": 2,
+      "node_residual": 3.375,
+      "pipe_residual": 4.101562499998124
+    },
+    {
+      "name": "peak",
+      "converged": false,
+      "reason": "iteration limit reached",
+      "iterations": 2,
+      "node_residual": 9.1875,
+      "pipe_residual": 5.1269531249978115
+    },
+    {
+      "name": "with-injection",
+      "converged": false,
+      "reason": "iteration limit reached",
+      "iterations": 2,
+      "node_residual": 3.375,
+      "pipe_residual": 2.184911044257152
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+scenario,pipe,from,to,flow,direction,head_loss
+base,p1,tank,j1,10,forward,50
+base,p2,j1,j2,5.326237921,forward,22.69504832
+base,p3,j1,j3,4.673762079,forward,26.21286236
+base,p4,j2,j3,1.326237921,forward,3.517814048
+peak,p1,tank,j1,20,forward,200
+peak,p2,j1,j2,10.65247584,forward,90.78019326
+peak,p3,j1,j3,9.347524157,forward,104.8514494
+peak,p4,j2,j3,2.652475843,forward,14.07125619
+with-injection,p1,tank,j1,5,forward,12.5
+with-injection,p2,j1,j2,5.326237921,forward,22.69504832
+with-injection,p3,j1,j3,4.673762079,forward,26.21286236
+with-injection,p4,j2,j3,1.326237921,forward,3.517814048

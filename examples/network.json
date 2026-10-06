@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {"id": "tank", "head": 100.0},
+    {"id": "j1", "demand": 0.0},
+    {"id": "j2", "demand": 0.0},
+    {"id": "j3", "demand": 0.0}
+  ],
+  "pipes": [
+    {"id": "p1", "from": "tank", "to": "j1", "resistance": 0.5},
+    {"id": "p2", "from": "j1", "to": "j2", "resistance": 0.8},
+    {"id": "p3", "from": "j1", "to": "j3", "resistance": 1.2},
+    {"id": "p4", "from": "j2", "to": "j3", "resistance": 2.0}
+  ]
+}

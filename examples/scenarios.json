@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    {"name": "base", "demands": {"j1": 0.0, "j2": 4.0, "j3": 6.0}},
+    {"name": "peak", "demands": {"j1": 0.0, "j2": 8.0, "j3": 12.0}},
+    {"name": "with-injection", "demands": {"j1": -5.0, "j2": 4.0, "j3": 6.0}}
+  ]
+}
