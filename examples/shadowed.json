@@ -1,0 +1,12 @@
+{
+  "fields": [
+    { "name": "tier", "type": "enum", "values": ["free", "pro", "enterprise"] },
+    { "name": "age", "type": "int", "min": 0, "max": 120 }
+  ],
+  "rules": [
+    { "name": "adults-pro", "when": { "tier": ["pro"], "age": { "min": 18, "max": 65 } }, "output": "standard" },
+    { "name": "seniors-pro", "when": { "tier": ["pro"], "age": { "min": 66 } }, "output": "senior" },
+    { "name": "any-pro", "when": { "tier": ["pro"] }, "output": "catchall" },
+    { "name": "young-pro-dup", "when": { "tier": ["pro"], "age": { "max": 17, "maxExclusive": true } }, "output": "teen" }
+  ]
+}
