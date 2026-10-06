@@ -1,0 +1,15 @@
+step,action,detail,species,change_mol,balance_mol,limiting_reactants
+0,initial,,,,,
+1,add,add 3/2 mol N2,N2,1.5,1.5,
+2,add,add 4 mol H2,H2,4,4,
+2,add,add 4 mol H2,N2,,1.5,
+3,react,react ammonia fraction=1 extent=4/3 mol (max 4/3 mol),H2,-4,0,H2
+3,react,react ammonia fraction=1 extent=4/3 mol (max 4/3 mol),N2,-1.3333333333,0.1666666667,H2
+3,react,react ammonia fraction=1 extent=4/3 mol (max 4/3 mol),NH3,2.6666666667,2.6666666667,H2
+4,add,add 1 mol H2SO4,H2SO4,1,1,
+4,add,add 1 mol H2SO4,N2,,0.1666666667,
+4,add,add 1 mol H2SO4,NH3,,2.6666666667,
+5,react,react neutralize fraction=3/4 extent=3/4 mol (max 1 mol),(NH4)2SO4,0.75,0.75,H2SO4
+5,react,react neutralize fraction=3/4 extent=3/4 mol (max 1 mol),H2SO4,-0.75,0.25,H2SO4
+5,react,react neutralize fraction=3/4 extent=3/4 mol (max 1 mol),N2,,0.1666666667,H2SO4
+5,react,react neutralize fraction=3/4 extent=3/4 mol (max 1 mol),NH3,-1.5,1.1666666667,H2SO4

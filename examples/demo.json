@@ -1,0 +1,13 @@
+{
+  "reactions": [
+    {"name": "ammonia", "reactants": ["N2", "H2"], "products": ["NH3"]},
+    {"name": "neutralize", "reactants": ["NH3", "H2SO4"], "products": ["(NH4)2SO4"]}
+  ],
+  "operations": [
+    {"type": "add", "species": "N2", "moles": "1.5"},
+    {"type": "add", "species": "H2", "moles": "4"},
+    {"type": "react", "reaction": "ammonia", "fraction": "1"},
+    {"type": "add", "species": "H2SO4", "moles": "1"},
+    {"type": "react", "reaction": "neutralize", "fraction": "0.75"}
+  ]
+}

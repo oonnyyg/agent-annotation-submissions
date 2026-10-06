@@ -1,0 +1,119 @@
+{
+  "reactions": [
+    {
+      "name": "ammonia",
+      "reactants": [
+        "N2",
+        "H2"
+      ],
+      "products": [
+        "NH3"
+      ],
+      "coefficients": {
+        "N2": 1,
+        "H2": 3,
+        "NH3": 2
+      }
+    },
+    {
+      "name": "neutralize",
+      "reactants": [
+        "NH3",
+        "H2SO4"
+      ],
+      "products": [
+        "(NH4)2SO4"
+      ],
+      "coefficients": {
+        "NH3": 2,
+        "H2SO4": 1,
+        "(NH4)2SO4": 1
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 0,
+      "action": "initial",
+      "detail": "",
+      "changes": {},
+      "limiting_reactants": [],
+      "stock": {}
+    },
+    {
+      "step": 1,
+      "action": "add",
+      "detail": "add 3/2 mol N2",
+      "changes": {
+        "N2": "3/2"
+      },
+      "limiting_reactants": [],
+      "stock": {
+        "N2": "3/2"
+      }
+    },
+    {
+      "step": 2,
+      "action": "add",
+      "detail": "add 4 mol H2",
+      "changes": {
+        "H2": "4"
+      },
+      "limiting_reactants": [],
+      "stock": {
+        "H2": "4",
+        "N2": "3/2"
+      }
+    },
+    {
+      "step": 3,
+      "action": "react",
+      "detail": "react ammonia fraction=1 extent=4/3 mol (max 4/3 mol)",
+      "changes": {
+        "H2": "-4",
+        "N2": "-4/3",
+        "NH3": "8/3"
+      },
+      "limiting_reactants": [
+        "H2"
+      ],
+      "stock": {
+        "N2": "1/6",
+        "NH3": "8/3"
+      }
+    },
+    {
+      "step": 4,
+      "action": "add",
+      "detail": "add 1 mol H2SO4",
+      "changes": {
+        "H2SO4": "1"
+      },
+      "limiting_reactants": [],
+      "stock": {
+        "H2SO4": "1",
+        "N2": "1/6",
+        "NH3": "8/3"
+      }
+    },
+    {
+      "step": 5,
+      "action": "react",
+      "detail": "react neutralize fraction=3/4 extent=3/4 mol (max 1 mol)",
+      "changes": {
+        "(NH4)2SO4": "3/4",
+        "H2SO4": "-3/4",
+        "NH3": "-3/2"
+      },
+      "limiting_reactants": [
+        "H2SO4"
+      ],
+      "stock": {
+        "(NH4)2SO4": "3/4",
+        "H2SO4": "1/4",
+        "N2": "1/6",
+        "NH3": "7/6"
+      }
+    }
+  ]
+}

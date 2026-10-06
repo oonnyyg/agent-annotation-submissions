@@ -1,0 +1,8 @@
+{
+  "reactions": [
+    {"name": "bad", "reactants": ["CO", "H2", "O2"], "products": ["CO2", "H2O"]}
+  ],
+  "operations": [
+    {"type": "add", "species": "H2", "moles": "1"}
+  ]
+}
