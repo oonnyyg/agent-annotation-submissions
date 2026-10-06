@@ -1,0 +1,164 @@
+{
+  "budget": 8,
+  "baseline": {
+    "finish": 13,
+    "cost": 0,
+    "selected": [],
+    "criticalPath": [
+      "design",
+      "backend",
+      "integrate",
+      "release"
+    ],
+    "rows": [
+      {
+        "id": "backend",
+        "duration": 6,
+        "crashed": false,
+        "es": 4,
+        "ef": 10,
+        "ls": 4,
+        "lf": 10,
+        "float": 0,
+        "critical": true
+      },
+      {
+        "id": "design",
+        "duration": 4,
+        "crashed": false,
+        "es": 0,
+        "ef": 4,
+        "ls": 0,
+        "lf": 4,
+        "float": 0,
+        "critical": true
+      },
+      {
+        "id": "docs",
+        "duration": 2,
+        "crashed": false,
+        "es": 4,
+        "ef": 6,
+        "ls": 11,
+        "lf": 13,
+        "float": 7,
+        "critical": false
+      },
+      {
+        "id": "frontend",
+        "duration": 5,
+        "crashed": false,
+        "es": 4,
+        "ef": 9,
+        "ls": 5,
+        "lf": 10,
+        "float": 1,
+        "critical": false
+      },
+      {
+        "id": "integrate",
+        "duration": 3,
+        "crashed": false,
+        "es": 10,
+        "ef": 13,
+        "ls": 10,
+        "lf": 13,
+        "float": 0,
+        "critical": true
+      },
+      {
+        "id": "release",
+        "duration": 0,
+        "crashed": false,
+        "es": 13,
+        "ef": 13,
+        "ls": 13,
+        "lf": 13,
+        "float": 0,
+        "critical": true
+      }
+    ]
+  },
+  "plan": {
+    "finish": 11,
+    "cost": 5,
+    "selected": [
+      "design"
+    ],
+    "criticalPath": [
+      "design",
+      "backend",
+      "integrate",
+      "release"
+    ],
+    "rows": [
+      {
+        "id": "backend",
+        "duration": 6,
+        "crashed": false,
+        "es": 2,
+        "ef": 8,
+        "ls": 2,
+        "lf": 8,
+        "float": 0,
+        "critical": true
+      },
+      {
+        "id": "design",
+        "duration": 2,
+        "crashed": true,
+        "es": 0,
+        "ef": 2,
+        "ls": 0,
+        "lf": 2,
+        "float": 0,
+        "critical": true
+      },
+      {
+        "id": "docs",
+        "duration": 2,
+        "crashed": false,
+        "es": 2,
+        "ef": 4,
+        "ls": 9,
+        "lf": 11,
+        "float": 7,
+        "critical": false
+      },
+      {
+        "id": "frontend",
+        "duration": 5,
+        "crashed": false,
+        "es": 2,
+        "ef": 7,
+        "ls": 3,
+        "lf": 8,
+        "float": 1,
+        "critical": false
+      },
+      {
+        "id": "integrate",
+        "duration": 3,
+        "crashed": false,
+        "es": 8,
+        "ef": 11,
+        "ls": 8,
+        "lf": 11,
+        "float": 0,
+        "critical": true
+      },
+      {
+        "id": "release",
+        "duration": 0,
+        "crashed": false,
+        "es": 11,
+        "ef": 11,
+        "ls": 11,
+        "lf": 11,
+        "float": 0,
+        "critical": true
+      }
+    ]
+  },
+  "rationale": "在预算 8 内穷举全部压缩组合, 选择 design (总成本 5), 完工日由 13 天提前到 11 天。 同完工日组合中本方案成本最低; 若仍并列, 已选标识序列字典序最小。 压缩后关键路径为 design -\u003e backend -\u003e integrate -\u003e release。"
+}

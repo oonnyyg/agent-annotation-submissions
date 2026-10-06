@@ -1,0 +1,7 @@
+id,duration,crashed,es,ef,ls,lf,float,critical
+backend,6,false,4,10,4,10,0,true
+design,4,false,0,4,0,4,0,true
+docs,2,false,4,6,11,13,7,false
+frontend,5,false,4,9,5,10,1,false
+integrate,3,false,10,13,10,13,0,true
+release,0,false,13,13,13,13,0,true

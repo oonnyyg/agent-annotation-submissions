@@ -1,0 +1,11 @@
+{
+  "budget": 8,
+  "activities": [
+    {"id": "design", "duration": 4, "predecessors": [], "crash": {"duration": 2, "cost": 5}},
+    {"id": "backend", "duration": 6, "predecessors": ["design"], "crash": {"duration": 4, "cost": 4}},
+    {"id": "frontend", "duration": 5, "predecessors": ["design"], "crash": {"duration": 3, "cost": 3}},
+    {"id": "docs", "duration": 2, "predecessors": ["design"]},
+    {"id": "integrate", "duration": 3, "predecessors": ["backend", "frontend"], "crash": {"duration": 1, "cost": 6}},
+    {"id": "release", "duration": 0, "predecessors": ["integrate", "docs"]}
+  ]
+}
