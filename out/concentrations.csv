@@ -1,0 +1,9 @@
+time_s,z_top_m,z_bottom_m,class,concentration_kg_m3
+0.0,0.0,0.5,coarse_sand,2.0
+0.0,0.0,0.5,fine_silt,1.0
+30.0,0.0,0.5,coarse_sand,0.0
+30.0,0.0,0.5,fine_silt,0.9986529112198024
+30.0,1.5,2.0,coarse_sand,2.0
+30.0,1.5,2.0,fine_silt,1.0
+100.0,0.0,2.0,coarse_sand,0.0
+100.0,0.0,2.0,fine_silt,0.998877426016502

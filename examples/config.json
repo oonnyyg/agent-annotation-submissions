@@ -1,0 +1,9 @@
+{
+  "column": {"depth": 2.0, "area": 0.5},
+  "fluid": {"density": 1000.0, "viscosity": 0.001},
+  "gravity": 9.81,
+  "classes": [
+    {"name": "coarse_sand", "diameter": 0.0002, "density": 2650.0, "mass": 2.0},
+    {"name": "fine_silt", "diameter": 5e-6, "density": 2650.0, "mass": 1.0}
+  ]
+}
