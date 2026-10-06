@@ -1,0 +1,58 @@
+{
+  "samples": 4,
+  "components": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "delta": 1e-06,
+  "zero_replacements_per_sample": {
+    "s1": 0,
+    "s2": 1,
+    "s3": 1,
+    "s4": 0
+  },
+  "total_zero_replacements": 2,
+  "balance_order": [
+    "balance_0:a|b+c+d",
+    "balance_1:b|c+d",
+    "balance_2:c|d"
+  ],
+  "max_reconstruction_error": 1.6653345369377348e-16,
+  "max_balance_vs_clr_distance_difference": 1.7763568394002505e-15,
+  "pairwise_balance_distances": {
+    "sample_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "matrix": [
+      [
+        0.0,
+        10.02494729865462,
+        10.92479842539592,
+        0.0
+      ],
+      [
+        10.02494729865462,
+        0.0,
+        18.386061369012257,
+        10.02494729865462
+      ],
+      [
+        10.92479842539592,
+        18.386061369012257,
+        0.0,
+        10.92479842539592
+      ],
+      [
+        0.0,
+        10.02494729865462,
+        10.92479842539592,
+        0.0
+      ]
+    ]
+  }
+}
