@@ -1,0 +1,11 @@
+{
+  "converged": true,
+  "tolerance": 1e-09,
+  "total_stellar_flux": 2.7227136331111543,
+  "external_contact_interval": [
+    3.941699475574164,
+    6.058300524425836
+  ],
+  "n_exposures": 6,
+  "errors": []
+}
