@@ -1,0 +1,175 @@
+{
+  "config": {
+    "cameras": "examples/cameras.json",
+    "matches": "examples/matches.csv",
+    "angle_threshold_deg": 1.0
+  },
+  "summary": {
+    "total": 5,
+    "ok": 3,
+    "failed": 2
+  },
+  "points": [
+    {
+      "id": "p1",
+      "observed_left": [
+        400.092908,
+        272.838092
+      ],
+      "observed_right": [
+        239.9536,
+        272.819024
+      ],
+      "status": "ok",
+      "point": [
+        0.5000000010985124,
+        0.19999999914733357,
+        4.999999989031451
+      ],
+      "ray_angle_deg": 11.412120546441493,
+      "closest_distance": 8.271876370155486e-10,
+      "ray_parameters": [
+        5.028916373441893,
+        5.028916373223454
+      ],
+      "left": {
+        "reprojected_pixel": [
+          400.0929080003177,
+          272.83809206798446
+        ],
+        "residual_pixels": [
+          3.17697868013056e-10,
+          6.798444474043208e-08
+        ],
+        "residual_norm_pixels": 6.798518705277058e-08
+      },
+      "right": {
+        "reprojected_pixel": [
+          239.9536000002921,
+          272.81902393206605
+        ],
+        "residual_pixels": [
+          2.921183295256924e-10,
+          -6.793396778448368e-08
+        ],
+        "residual_norm_pixels": 6.79345958408653e-08
+      }
+    },
+    {
+      "id": "p2",
+      "observed_left": [
+        350.011723,
+        198.983978
+      ],
+      "observed_right": [
+        249.964453,
+        198.97918
+      ],
+      "status": "ok",
+      "point": [
+        0.2999999973273523,
+        -0.39999999986440893,
+        8.000000016156756
+      ],
+      "ray_angle_deg": 7.139345523771881,
+      "closest_distance": 4.201929793924806e-09,
+      "ray_parameters": [
+        8.015609786959194,
+        8.04052238739134
+      ],
+      "left": {
+        "reprojected_pixel": [
+          350.0117229995283,
+          198.98397821581023
+        ],
+        "residual_pixels": [
+          -4.717435331258457e-10,
+          2.158102176963439e-07
+        ],
+        "residual_norm_pixels": 2.158107332921706e-07
+      },
+      "right": {
+        "reprojected_pixel": [
+          249.9644529989878,
+          198.97917978421827
+        ],
+        "residual_pixels": [
+          -1.012182337944978e-09,
+          -2.1578173914349463e-07
+        ],
+        "residual_norm_pixels": 2.1578411308730867e-07
+      }
+    },
+    {
+      "id": "p3",
+      "observed_left": [
+        480.660482,
+        267.446166
+      ],
+      "observed_right": [
+        214.732593,
+        267.359148
+      ],
+      "status": "ok",
+      "point": [
+        0.6033849599469501,
+        0.10056540254006485,
+        3.016924757888124
+      ],
+      "ray_angle_deg": 18.78905297101481,
+      "closest_distance": 2.484096153840965e-06,
+      "ray_parameters": [
+        3.078314767017012,
+        3.0445446104370193
+      ],
+      "left": {
+        "reprojected_pixel": [
+          480.66048466509886,
+          267.44650524915187
+        ],
+        "residual_pixels": [
+          2.6650988615983806e-06,
+          0.00033924915186389626
+        ],
+        "residual_norm_pixels": 0.0003392596200438759
+      },
+      "right": {
+        "reprojected_pixel": [
+          214.7325945898985,
+          267.35880987505936
+        ],
+        "residual_pixels": [
+          1.5898984884188394e-06,
+          -0.0003381249406402276
+        ],
+        "residual_norm_pixels": 0.00033812867855324087
+      }
+    },
+    {
+      "id": "parallel",
+      "observed_left": [
+        400.0,
+        240.0
+      ],
+      "observed_right": [
+        400.0,
+        240.0
+      ],
+      "status": "failed",
+      "reason": "rays too close to parallel/antiparallel: angle 0.003 deg"
+    },
+    {
+      "id": "behind",
+      "observed_left": [
+        420.0,
+        240.0
+      ],
+      "observed_right": [
+        640.0,
+        240.0
+      ],
+      "status": "failed",
+      "reason": "closest point lies behind or at a camera center"
+    }
+  ]
+}
