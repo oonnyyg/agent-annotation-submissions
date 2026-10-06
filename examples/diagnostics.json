@@ -1,0 +1,223 @@
+{
+  "degeneracy_rtol": 1e-06,
+  "directions": [
+    {
+      "direction_index": 0,
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "orthogonality_error": 0.0,
+      "degeneracy_groups": [],
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue_pa": 31482356603.40521,
+          "velocity_m_per_s": 3414.6935551137326,
+          "polarization": [
+            0.05610204290691675,
+            0.9984250401415573,
+            0.0
+          ],
+          "degeneracy_group": 0,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 9.5367431640625e-07
+        },
+        {
+          "mode": 2,
+          "eigenvalue_pa": 40000000000.0,
+          "velocity_m_per_s": 3849.001794597505,
+          "polarization": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "degeneracy_group": 1,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 0.0
+        },
+        {
+          "mode": 3,
+          "eigenvalue_pa": 116517643396.59477,
+          "velocity_m_per_s": 6569.222384687517,
+          "polarization": [
+            0.9984250401415573,
+            -0.05610204290691675,
+            0.0
+          ],
+          "degeneracy_group": 2,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 5.7220458984375e-06
+        }
+      ]
+    },
+    {
+      "direction_index": 1,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "orthogonality_error": 0.0,
+      "degeneracy_groups": [],
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue_pa": 31482356603.40521,
+          "velocity_m_per_s": 3414.6935551137326,
+          "polarization": [
+            0.9984250401415573,
+            -0.056102042906916685,
+            0.0
+          ],
+          "degeneracy_group": 0,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 6.4373016357421875e-06
+        },
+        {
+          "mode": 2,
+          "eigenvalue_pa": 40000000000.0,
+          "velocity_m_per_s": 3849.001794597505,
+          "polarization": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "degeneracy_group": 1,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 0.0
+        },
+        {
+          "mode": 3,
+          "eigenvalue_pa": 116517643396.59476,
+          "velocity_m_per_s": 6569.222384687517,
+          "polarization": [
+            0.056102042906916685,
+            0.9984250401415573,
+            0.0
+          ],
+          "degeneracy_group": 2,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 1.9073486328125e-06
+        }
+      ]
+    },
+    {
+      "direction_index": 2,
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "orthogonality_error": 0.0,
+      "degeneracy_groups": [
+        {
+          "group": 0,
+          "dimension": 2,
+          "projection_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ],
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue_pa": 40000000000.0,
+          "velocity_m_per_s": 3849.001794597505,
+          "polarization": null,
+          "degeneracy_group": 0,
+          "degeneracy_dimension": 2,
+          "eigen_residual": 0.0
+        },
+        {
+          "mode": 2,
+          "eigenvalue_pa": 40000000000.0,
+          "velocity_m_per_s": 3849.001794597505,
+          "polarization": null,
+          "degeneracy_group": 0,
+          "degeneracy_dimension": 2,
+          "eigen_residual": 0.0
+        },
+        {
+          "mode": 3,
+          "eigenvalue_pa": 108000000000.0,
+          "velocity_m_per_s": 6324.555320336759,
+          "polarization": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "degeneracy_group": 1,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 0.0
+        }
+      ]
+    },
+    {
+      "direction_index": 3,
+      "direction": [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      "orthogonality_error": 1.6653345369377348e-16,
+      "degeneracy_groups": [],
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue_pa": 30290319750.006836,
+          "velocity_m_per_s": 3349.4233749179834,
+          "polarization": [
+            -0.5846781626471391,
+            -0.24869542873860156,
+            0.7722059504096616
+          ],
+          "degeneracy_group": 0,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 1.33514404296875e-05
+        },
+        {
+          "mode": 2,
+          "eigenvalue_pa": 38553941207.2007,
+          "velocity_m_per_s": 3778.7878326453324,
+          "polarization": [
+            -0.6027782097433847,
+            0.7702300984819462,
+            -0.20833632724767748
+          ],
+          "degeneracy_group": 1,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 0.0001392364501953125
+        },
+        {
+          "mode": 3,
+          "eigenvalue_pa": 119155739042.79248,
+          "velocity_m_per_s": 6643.173579023376,
+          "polarization": [
+            0.5429639730056919,
+            0.5872786213689501,
+            0.6002449041023672
+          ],
+          "degeneracy_group": 2,
+          "degeneracy_dimension": 1,
+          "eigen_residual": 0.00018310546875
+        }
+      ]
+    }
+  ]
+}
