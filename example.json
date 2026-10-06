@@ -1,0 +1,12 @@
+{
+  "reactions": [
+    {"name": "synthesize_water", "reactants": ["H2", "O2"], "products": ["H2O"]},
+    {"name": "electrolyze", "reactants": ["H2O"], "products": ["H2", "O2"]}
+  ],
+  "operations": [
+    {"type": "add", "species": "H2", "amount": "5"},
+    {"type": "add", "species": "O2", "amount": "2"},
+    {"type": "react", "reaction": "synthesize_water", "fraction": "0.5"},
+    {"type": "react", "reaction": "electrolyze", "fraction": "1"}
+  ]
+}
