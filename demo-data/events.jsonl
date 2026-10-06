@@ -1,0 +1,10 @@
+{"seq":1,"type":"inbound","location":"L1","sku":"A","qty":10}
+{"seq":2,"type":"inbound","location":"L1","sku":"B","qty":5}
+{"seq":3,"type":"stocktake_started","stocktake":"ST1","location":"L1","baseline":{"A":10,"B":5}}
+{"seq":4,"type":"outbound","location":"L1","sku":"A","qty":4,"memo":"order-1"}
+{"seq":5,"type":"count_recorded","stocktake":"ST1","location":"L1","sku":"A","qty":10,"record_id":"r1"}
+{"seq":6,"type":"count_recorded","stocktake":"ST1","location":"L1","sku":"A","qty":2,"record_id":"r2"}
+{"seq":7,"type":"count_revoked","stocktake":"ST1","location":"L1","record_id":"r2"}
+{"seq":8,"type":"location_completed","stocktake":"ST1","location":"L1"}
+{"seq":9,"type":"stocktake_sealed","stocktake":"ST1","location":"L1","details":[{"sku":"A","baseline":10,"counted":10,"diff":0},{"sku":"B","baseline":5,"counted":0,"diff":-5}],"diff":{"B":-5}}
+{"seq":10,"type":"stocktake_posted","stocktake":"ST1","location":"L1","diff":{"B":-5}}
