@@ -1,0 +1,9 @@
+{"scan":1,"duration_ms":10,"inputs":{"I_start":true,"I_stop":false,"I_part":false,"I_reset":false}}
+{"scan":2,"duration_ms":10,"inputs":{"I_start":false,"I_stop":false,"I_part":false,"I_reset":false}}
+{"scan":3,"duration_ms":10,"inputs":{"I_start":false,"I_stop":false,"I_part":true,"I_reset":false}}
+{"scan":4,"duration_ms":10,"inputs":{"I_start":false,"I_stop":false,"I_part":false,"I_reset":false}}
+{"scan":5,"duration_ms":10,"inputs":{"I_start":false,"I_stop":false,"I_part":true,"I_reset":false}}
+{"scan":6,"duration_ms":10,"inputs":{"I_start":false,"I_stop":false,"I_part":false,"I_reset":false}}
+{"scan":7,"duration_ms":10,"inputs":{"I_start":false,"I_stop":false,"I_part":true,"I_reset":false}}
+{"scan":8,"duration_ms":10,"inputs":{"I_start":false,"I_stop":false,"I_part":false,"I_reset":true}}
+{"scan":9,"duration_ms":10,"inputs":{"I_start":false,"I_stop":true,"I_part":false,"I_reset":false}}

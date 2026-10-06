@@ -1,0 +1,50 @@
+{
+  "inputs": ["I_start", "I_stop", "I_part", "I_reset"],
+  "coils": ["Q_run", "Q_ready", "Q_batch_done"],
+  "timers": [
+    {"name": "T_warmup", "preset_ms": 30}
+  ],
+  "counters": [
+    {"name": "C_parts", "preset": 3}
+  ],
+  "statements": [
+    {
+      "type": "coil",
+      "target": "Q_run",
+      "condition": {
+        "op": "or",
+        "args": [
+          {"op": "contact", "name": "I_start"},
+          {"op": "and", "args": [
+            {"op": "contact", "name": "Q_run"},
+            {"op": "not", "args": [{"op": "contact", "name": "I_stop"}]}
+          ]}
+        ]
+      }
+    },
+    {
+      "type": "ton",
+      "timer": "T_warmup",
+      "condition": {"op": "contact", "name": "Q_run"}
+    },
+    {
+      "type": "coil",
+      "target": "Q_ready",
+      "condition": {"op": "done", "name": "T_warmup"}
+    },
+    {
+      "type": "ctu",
+      "counter": "C_parts",
+      "condition": {"op": "and", "args": [
+        {"op": "contact", "name": "I_part"},
+        {"op": "contact", "name": "Q_ready"}
+      ]},
+      "reset": {"op": "contact", "name": "I_reset"}
+    },
+    {
+      "type": "coil",
+      "target": "Q_batch_done",
+      "condition": {"op": "done", "name": "C_parts"}
+    }
+  ]
+}
