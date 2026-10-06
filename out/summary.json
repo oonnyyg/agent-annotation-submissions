@@ -1,0 +1,164 @@
+{
+  "lattice": {
+    "size": 4,
+    "n_sites": 16,
+    "boundary": "periodic"
+  },
+  "coupling": 1.0,
+  "field": 0.0,
+  "boltzmann_constant": 1.0,
+  "initial_state": "all_up",
+  "schedule": {
+    "equilibration_sweeps": 2000,
+    "sampling_sweeps": 20000,
+    "sample_interval": 10,
+    "seed": 20261004
+  },
+  "temperatures": [
+    {
+      "temperature": 1.5,
+      "sampling": {
+        "n_samples": 2000,
+        "energy_per_spin": -1.9465,
+        "abs_magnetization_per_spin": 0.9846875,
+        "magnetization_per_spin": 0.4926875,
+        "energy_variance": 8.083264,
+        "magnetization_variance": 186.90831100000003,
+        "heat_capacity_per_spin": 0.2245351111111111,
+        "susceptibility_per_spin": 7.787846291666668,
+        "sampling_error": {
+          "energy_per_spin": 0.00414256145946168,
+          "abs_magnetization_per_spin": -0.001485797816379586,
+          "heat_capacity_per_spin": 0.024185238136311377,
+          "susceptibility_per_spin": -2.6153803018481074
+        }
+      },
+      "exact": {
+        "n_states": 65536,
+        "energy_per_spin": -1.9506425614594616,
+        "abs_magnetization_per_spin": 0.9861732978163796,
+        "magnetization_per_spin": 1.4411602474563472e-30,
+        "energy_variance": 7.21259542709279,
+        "magnetization_variance": 249.67743824435462,
+        "heat_capacity_per_spin": 0.20034987297479973,
+        "susceptibility_per_spin": 10.403226593514775
+      }
+    },
+    {
+      "temperature": 2.0,
+      "sampling": {
+        "n_samples": 2000,
+        "energy_per_spin": -1.7685,
+        "abs_magnetization_per_spin": 0.9245,
+        "magnetization_per_spin": 0.004125,
+        "energy_variance": 36.856384,
+        "magnetization_variance": 224.46764399999998,
+        "heat_capacity_per_spin": 0.575881,
+        "susceptibility_per_spin": 7.014613874999999,
+        "sampling_error": {
+          "energy_per_spin": -0.013119711222564723,
+          "abs_magnetization_per_spin": 0.005556732598027914,
+          "heat_capacity_per_spin": -0.029651657210055138,
+          "susceptibility_per_spin": 0.06324042186145551
+        }
+      },
+      "exact": {
+        "n_states": 65536,
+        "energy_per_spin": -1.7553802887774352,
+        "abs_magnetization_per_spin": 0.9189432674019721,
+        "magnetization_per_spin": 0.0,
+        "energy_variance": 38.75409006144353,
+        "magnetization_variance": 222.4439505004334,
+        "heat_capacity_per_spin": 0.6055326572100551,
+        "susceptibility_per_spin": 6.951373453138544
+      }
+    },
+    {
+      "temperature": 2.269,
+      "sampling": {
+        "n_samples": 2000,
+        "energy_per_spin": -1.586875,
+        "abs_magnetization_per_spin": 0.854625,
+        "magnetization_per_spin": 0.04,
+        "energy_variance": 61.451899999999995,
+        "magnetization_variance": 197.75440000000003,
+        "heat_capacity_per_spin": 0.7460129058548923,
+        "susceptibility_per_spin": 5.447179374173645,
+        "sampling_error": {
+          "energy_per_spin": -0.021106068672280376,
+          "abs_magnetization_per_spin": 0.010704746609033311,
+          "heat_capacity_per_spin": -0.0371806686591416,
+          "susceptibility_per_spin": 0.07782387573383254
+        }
+      },
+      "exact": {
+        "n_states": 65536,
+        "energy_per_spin": -1.5657689313277197,
+        "abs_magnetization_per_spin": 0.8439202533909667,
+        "magnetization_per_spin": 0.0,
+        "energy_variance": 64.51461207165835,
+        "magnetization_variance": 194.92908201535897,
+        "heat_capacity_per_spin": 0.7831935745140339,
+        "susceptibility_per_spin": 5.369355498439813
+      }
+    },
+    {
+      "temperature": 2.5,
+      "sampling": {
+        "n_samples": 2000,
+        "energy_per_spin": -1.380625,
+        "abs_magnetization_per_spin": 0.763,
+        "magnetization_per_spin": -0.06275,
+        "energy_variance": 84.72789999999999,
+        "magnetization_variance": 166.963984,
+        "heat_capacity_per_spin": 0.8472789999999999,
+        "susceptibility_per_spin": 4.1740996,
+        "sampling_error": {
+          "energy_per_spin": -0.001508517740651083,
+          "abs_magnetization_per_spin": -0.0017123932216829285,
+          "heat_capacity_per_spin": 0.03476377055954183,
+          "susceptibility_per_spin": -0.016785244394512233
+        }
+      },
+      "exact": {
+        "n_states": 65536,
+        "energy_per_spin": -1.379116482259349,
+        "abs_magnetization_per_spin": 0.7647123932216829,
+        "magnetization_per_spin": 0.0,
+        "energy_variance": 81.2515229440458,
+        "magnetization_variance": 167.63539377578047,
+        "heat_capacity_per_spin": 0.8125152294404581,
+        "susceptibility_per_spin": 4.190884844394512
+      }
+    },
+    {
+      "temperature": 3.0,
+      "sampling": {
+        "n_samples": 2000,
+        "energy_per_spin": -1.023625,
+        "abs_magnetization_per_spin": 0.6009375,
+        "magnetization_per_spin": -0.0115625,
+        "energy_variance": 91.24111599999999,
+        "magnetization_variance": 116.023775,
+        "heat_capacity_per_spin": 0.6336188611111111,
+        "susceptibility_per_spin": 2.4171619791666665,
+        "sampling_error": {
+          "energy_per_spin": -0.006555373044904611,
+          "abs_magnetization_per_spin": -0.0003538260391128256,
+          "heat_capacity_per_spin": 0.030484146857605254,
+          "susceptibility_per_spin": 0.011891894643803802
+        }
+      },
+      "exact": {
+        "n_states": 65536,
+        "energy_per_spin": -1.0170696269550954,
+        "abs_magnetization_per_spin": 0.6012913260391128,
+        "magnetization_per_spin": 0.0,
+        "energy_variance": 86.85139885250484,
+        "magnetization_variance": 115.45296405709742,
+        "heat_capacity_per_spin": 0.6031347142535058,
+        "susceptibility_per_spin": 2.4052700845228627
+      }
+    }
+  ]
+}

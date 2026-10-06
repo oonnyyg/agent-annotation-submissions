@@ -1,0 +1,10 @@
+{
+  "size": 4,
+  "coupling": 1.0,
+  "field": 0.0,
+  "temperatures": [1.5, 2.0, 2.269, 2.5, 3.0],
+  "equilibration_sweeps": 2000,
+  "sampling_sweeps": 20000,
+  "sample_interval": 10,
+  "seed": 20261004
+}
