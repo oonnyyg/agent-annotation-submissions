@@ -1,0 +1,12 @@
+{
+  "spins": [
+    {"weight": 1.0, "initial": [0.0, 1.0, 0.0], "offset_hz": -8.0, "t1": "inf", "t2": 1.5, "equilibrium_mz": 1.0},
+    {"weight": 2.0, "initial": [0.0, 1.0, 0.0], "offset_hz": 0.0,  "t1": "inf", "t2": 1.5, "equilibrium_mz": 1.0},
+    {"weight": 1.0, "initial": [0.0, 1.0, 0.0], "offset_hz": 8.0,  "t1": "inf", "t2": 1.5, "equilibrium_mz": 1.0}
+  ],
+  "pulses": [
+    {"time": 0.25, "phase_deg": 0.0, "flip_deg": 180.0}
+  ],
+  "samples": {"start": 0.0, "stop": 0.5, "step": 0.0005},
+  "peak_window": [0.4, 0.5]
+}

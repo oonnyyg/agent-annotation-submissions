@@ -1,0 +1,14 @@
+{
+  "spin_groups": 3,
+  "total_weight": 4.0,
+  "sample_count": 1001,
+  "pulse_count": 1,
+  "peak_window_s": [
+    0.4,
+    0.5
+  ],
+  "peak": {
+    "time_s": 0.4995,
+    "magnitude": 0.7166570123013281
+  }
+}
