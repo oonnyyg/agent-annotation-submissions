@@ -1,0 +1,117 @@
+{
+  "model": {
+    "type": "theis_confined_infinite",
+    "transmissivity": 0.001,
+    "storativity": 0.0002,
+    "units": {
+      "length": "m",
+      "time": "s",
+      "rate": "m^3/s"
+    }
+  },
+  "wells": [
+    {
+      "name": "PW1",
+      "x": 0.0,
+      "y": 0.0,
+      "schedule": [
+        {
+          "time": 0.0,
+          "rate": 0.02
+        },
+        {
+          "time": 86400.0,
+          "rate": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PW2",
+      "x": 120.0,
+      "y": 0.0,
+      "schedule": [
+        {
+          "time": 43200.0,
+          "rate": 0.01
+        },
+        {
+          "time": 129600.0,
+          "rate": -0.005
+        },
+        {
+          "time": 172800.0,
+          "rate": 0.0
+        }
+      ]
+    }
+  ],
+  "observation_points": [
+    {
+      "name": "OW1",
+      "x": 30.0,
+      "y": 0.0,
+      "max_drawdown": 14.378548748122046,
+      "final_drawdown": 0.889979306896985,
+      "well_contributions_at_final_time": {
+        "PW1": 0.6451796217242105,
+        "PW2": 0.2447996851727745
+      }
+    },
+    {
+      "name": "OW2",
+      "x": 60.0,
+      "y": 40.0,
+      "max_drawdown": 11.940928471119726,
+      "final_drawdown": 0.8894532492752028,
+      "well_contributions_at_final_time": {
+        "PW1": 0.6445200314789528,
+        "PW2": 0.24493321779625
+      }
+    }
+  ],
+  "well_function_stats": {
+    "evaluations": 41,
+    "max_terms_used": 8,
+    "methods": {
+      "series": 41
+    },
+    "converged": true
+  },
+  "residuals": {
+    "observation_count": 2,
+    "total_weight": 3.0,
+    "best_candidate": "high-T",
+    "weighted_sse": 113.64541867572154,
+    "weighted_rmse": 7.538083930141716
+  },
+  "candidate_ranking": [
+    {
+      "name": "high-T",
+      "transmissivity": 0.002,
+      "storativity": 0.0002,
+      "weighted_sse": 113.64541867572154,
+      "weighted_rmse": 7.538083930141716,
+      "observation_count": 2,
+      "rank": 1
+    },
+    {
+      "name": "base",
+      "transmissivity": 0.001,
+      "storativity": 0.0002,
+      "weighted_sse": 428.5654102578268,
+      "weighted_rmse": 14.638398311595207,
+      "observation_count": 2,
+      "rank": 2
+    },
+    {
+      "name": "low-T",
+      "transmissivity": 0.0005,
+      "storativity": 0.0002,
+      "weighted_sse": 1460.435218786336,
+      "weighted_rmse": 27.022538914638794,
+      "observation_count": 2,
+      "rank": 3
+    }
+  ],
+  "best_candidate": "high-T"
+}

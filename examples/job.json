@@ -1,0 +1,38 @@
+{
+  "aquifer": {"transmissivity": 0.001, "storativity": 0.0002},
+  "wells": [
+    {
+      "name": "PW1",
+      "x": 0.0,
+      "y": 0.0,
+      "schedule": [
+        {"time": 0.0, "rate": 0.02},
+        {"time": 86400.0, "rate": 0.0}
+      ]
+    },
+    {
+      "name": "PW2",
+      "x": 120.0,
+      "y": 0.0,
+      "schedule": [
+        {"time": 43200.0, "rate": 0.01},
+        {"time": 129600.0, "rate": -0.005},
+        {"time": 172800.0, "rate": 0.0}
+      ]
+    }
+  ],
+  "observation_points": [
+    {"name": "OW1", "x": 30.0, "y": 0.0},
+    {"name": "OW2", "x": 60.0, "y": 40.0}
+  ],
+  "times": [3600.0, 43200.0, 86400.0, 129600.0, 172800.0, 259200.0],
+  "observations": [
+    {"point": "OW1", "time": 43200.0, "drawdown": 1.0, "weight": 1.0},
+    {"point": "OW1", "time": 86400.0, "drawdown": 1.2, "weight": 2.0}
+  ],
+  "candidates": [
+    {"name": "low-T", "transmissivity": 0.0005, "storativity": 0.0002},
+    {"name": "base", "transmissivity": 0.001, "storativity": 0.0002},
+    {"name": "high-T", "transmissivity": 0.002, "storativity": 0.0002}
+  ]
+}
