@@ -1,0 +1,17 @@
+{
+  "quantities": [
+    {"name": "a", "nominal": 10.0, "std_uncertainty": 0.5},
+    {"name": "b", "nominal": 9.0, "std_uncertainty": 0.5},
+    {"name": "c", "nominal": 2.0, "std_uncertainty": 0.1}
+  ],
+  "correlation": [
+    [1.0, -0.9, 0.0],
+    [-0.9, 1.0, 0.0],
+    [0.0, 0.0, 1.0]
+  ],
+  "results": [
+    {"name": "difference", "expression": "a - b"},
+    {"name": "total", "expression": "a + b + c"},
+    {"name": "ratio", "expression": "a / (b + c)"}
+  ]
+}
