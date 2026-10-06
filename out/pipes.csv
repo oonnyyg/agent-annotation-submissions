@@ -1,0 +1,16 @@
+scenario,pipe,flow,converged
+off-peak,main-a,2.012012184,true
+off-peak,main-b,0.9879878155,true
+off-peak,link-12,0.5415872664,true
+off-peak,branch-1,0.4704249181,true
+off-peak,branch-2,0.02957508193,true
+peak,main-a,4.930394492,true
+peak,main-b,4.069605508,true
+peak,link-12,0.7439070757,true
+peak,branch-1,1.186487416,true
+peak,branch-2,0.8135125838,true
+injection-at-j3,main-a,0.8832449328,true
+injection-at-j3,main-b,-0.8832449328,true
+injection-at-j3,link-12,0.8697843335,true
+injection-at-j3,branch-1,-0.9865394007,true
+injection-at-j3,branch-2,-1.013460599,true

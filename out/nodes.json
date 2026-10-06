@@ -1,0 +1,70 @@
+{
+  "scenarios": [
+    {
+      "scenario": "off-peak",
+      "converged": true,
+      "iterations": 5,
+      "node_residual": 1.6653345369377348e-16,
+      "pipe_residual": 1.4003199728246374e-10,
+      "message": "converged",
+      "heads": {
+        "R1": 100.0,
+        "R2": 95.0,
+        "J1": 93.9277104541848,
+        "J2": 93.04776015281669,
+        "J3": 93.04251204012833
+      },
+      "boundary_supply": {
+        "R1": 2.0120121844919674,
+        "R2": 0.9879878155080327
+      },
+      "total_demand": 3.0,
+      "total_supply": 3.0,
+      "balance_error": 0.0
+    },
+    {
+      "scenario": "peak",
+      "converged": true,
+      "iterations": 5,
+      "node_residual": 4.440892098500626e-16,
+      "pipe_residual": 2.3003821070233244e-13,
+      "message": "converged",
+      "heads": {
+        "R1": 100.0,
+        "R2": 95.0,
+        "J1": 63.53681523018295,
+        "J2": 61.87662201818325,
+        "J3": 57.90580567458416
+      },
+      "boundary_supply": {
+        "R1": 4.930394491979795,
+        "R2": 4.069605508020204
+      },
+      "total_demand": 9.0,
+      "total_supply": 9.0,
+      "balance_error": 0.0
+    },
+    {
+      "scenario": "injection-at-j3",
+      "converged": true,
+      "iterations": 5,
+      "node_residual": 1.1102230246251565e-16,
+      "pipe_residual": 8.43769498715119e-14,
+      "message": "converged",
+      "heads": {
+        "R1": 100.0,
+        "R2": 95.0,
+        "J1": 98.82981758308482,
+        "J2": 96.56024322255358,
+        "J3": 102.72285753998716
+      },
+      "boundary_supply": {
+        "R1": 0.883244932777327,
+        "R2": -0.883244932777327
+      },
+      "total_demand": 0.0,
+      "total_supply": 0.0,
+      "balance_error": 0.0
+    }
+  ]
+}

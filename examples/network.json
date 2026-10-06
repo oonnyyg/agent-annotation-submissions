@@ -1,0 +1,10 @@
+{
+  "fixed_heads": { "R1": 100.0, "R2": 95.0 },
+  "pipes": [
+    { "name": "main-a", "from": "R1", "to": "J1", "resistance": 1.5 },
+    { "name": "main-b", "from": "R2", "to": "J2", "resistance": 2.0 },
+    { "name": "link-12", "from": "J1", "to": "J2", "resistance": 3.0 },
+    { "name": "branch-1", "from": "J1", "to": "J3", "resistance": 4.0 },
+    { "name": "branch-2", "from": "J2", "to": "J3", "resistance": 6.0 }
+  ]
+}

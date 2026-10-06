@@ -1,0 +1,16 @@
+{
+  "scenarios": [
+    {
+      "name": "off-peak",
+      "demands": { "J1": 1.0, "J2": 1.5, "J3": 0.5 }
+    },
+    {
+      "name": "peak",
+      "demands": { "J1": 3.0, "J2": 4.0, "J3": 2.0 }
+    },
+    {
+      "name": "injection-at-j3",
+      "demands": { "J1": 1.0, "J2": 1.0, "J3": -2.0 }
+    }
+  ]
+}
