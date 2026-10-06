@@ -1,0 +1,23 @@
+{
+  "tolerance": 1e-9,
+  "surfaces": [
+    {"name": "heater", "area": 1.0, "emissivity": 0.9},
+    {"name": "sink", "area": 1.0, "emissivity": 0.4},
+    {"name": "shield", "area": 2.0, "emissivity": 0.7}
+  ],
+  "view_factors": [
+    [0.0, 0.5, 0.5],
+    [0.5, 0.0, 0.5],
+    [0.25, 0.25, 0.5]
+  ],
+  "cases": [
+    {
+      "name": "steady",
+      "temperatures": {"heater": 1000.0, "sink": 300.0, "shield": null}
+    },
+    {
+      "name": "mild",
+      "temperatures": {"heater": 800.0, "sink": 400.0, "shield": null}
+    }
+  ]
+}
