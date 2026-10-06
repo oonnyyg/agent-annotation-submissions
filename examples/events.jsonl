@@ -1,0 +1,5 @@
+{"type":"outbound","time":0,"src_ip":"10.0.0.1","src_port":5000,"dst_ip":"8.8.8.8","dst_port":53}
+{"type":"inbound","time":100,"src_ip":"8.8.8.8","src_port":53,"dst_ip":"203.0.113.10","dst_port":10000}
+{"type":"inbound","time":200,"src_ip":"9.9.9.9","src_port":53,"dst_ip":"203.0.113.10","dst_port":10000}
+{"type":"query","time":500}
+{"type":"inbound","time":1000,"src_ip":"8.8.8.8","src_port":53,"dst_ip":"203.0.113.10","dst_port":10000}

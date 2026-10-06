@@ -1,0 +1,1 @@
+{"pool":[{"ip":"203.0.113.10","port_start":10000,"port_end":10001}],"reserved_ports":[10001],"idle_timeout_ms":1000,"inbound_mode":"restricted"}
