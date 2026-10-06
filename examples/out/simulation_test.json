@@ -1,0 +1,53 @@
+{
+  "window": {
+    "width": 10.0,
+    "height": 10.0
+  },
+  "n_points": 7,
+  "radii": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0
+  ],
+  "observed_statistic": 1.7331236527646272,
+  "statistic": "max absolute deviation of L(r) - r over the radius grid",
+  "simulations": 99,
+  "seed": 12345,
+  "p_value_upper_tail": 0.09,
+  "p_value_note": "plus-one corrected; ties count towards the tail",
+  "l_envelope_min": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.2842325819636158,
+    1.910044389041506,
+    2.499039475935085,
+    2.9961326574292615,
+    3.314974058278031
+  ],
+  "l_envelope_max": [
+    0.0,
+    1.7746094240038777,
+    2.5819192233671013,
+    2.93209894485548,
+    3.5478618553751717,
+    4.629900785256419,
+    5.514556681372749,
+    5.958523056053158,
+    5.958523056053158,
+    6.432024932790687,
+    6.915322985719489
+  ],
+  "envelope_note": "pointwise min/max envelope of simulated L curves; not a simultaneous confidence band"
+}
