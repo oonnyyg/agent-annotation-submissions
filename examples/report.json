@@ -1,0 +1,281 @@
+{
+  "mu0": "4*pi*1e-7 H/m",
+  "safe_distance_m": 0.01,
+  "coils": [
+    "loop_a",
+    "loop_b"
+  ],
+  "scenarios": [
+    {
+      "name": "baseline",
+      "currents_A": {
+        "loop_a": 4.0,
+        "loop_b": 4.0
+      },
+      "points": [
+        {
+          "probe": "axis_top",
+          "position_m": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "computable": true,
+          "per_coil_world_T": {
+            "loop_a": [
+              0.0,
+              0.0,
+              5.3259413223888486e-08
+            ],
+            "loop_b": [
+              0.0,
+              0.0,
+              8.803334550615792e-08
+            ]
+          },
+          "total_world_T": [
+            0.0,
+            0.0,
+            1.412927587300464e-07
+          ],
+          "total_local_T": [
+            0.0,
+            0.0,
+            1.412927587300464e-07
+          ],
+          "magnitude_T": 1.412927587300464e-07
+        },
+        {
+          "probe": "axis_top_rotated",
+          "position_m": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "computable": true,
+          "per_coil_world_T": {
+            "loop_a": [
+              0.0,
+              0.0,
+              5.3259413223888486e-08
+            ],
+            "loop_b": [
+              0.0,
+              0.0,
+              8.803334550615792e-08
+            ]
+          },
+          "total_world_T": [
+            0.0,
+            0.0,
+            1.412927587300464e-07
+          ],
+          "total_local_T": [
+            0.0,
+            0.0,
+            1.412927587300464e-07
+          ],
+          "magnitude_T": 1.412927587300464e-07
+        }
+      ]
+    },
+    {
+      "name": "b_reversed",
+      "currents_A": {
+        "loop_a": 4.0,
+        "loop_b": -4.0
+      },
+      "points": [
+        {
+          "probe": "axis_top",
+          "position_m": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "computable": true,
+          "per_coil_world_T": {
+            "loop_a": [
+              0.0,
+              0.0,
+              5.3259413223888486e-08
+            ],
+            "loop_b": [
+              0.0,
+              0.0,
+              -8.803334550615792e-08
+            ]
+          },
+          "total_world_T": [
+            0.0,
+            0.0,
+            -3.477393228226943e-08
+          ],
+          "total_local_T": [
+            0.0,
+            0.0,
+            -3.477393228226943e-08
+          ],
+          "magnitude_T": 3.477393228226943e-08,
+          "delta_vs_baseline": {
+            "world_T": [
+              0.0,
+              0.0,
+              -1.7606669101231583e-07
+            ],
+            "local_T": [
+              0.0,
+              0.0,
+              -1.7606669101231583e-07
+            ],
+            "world_delta_magnitude_T": 1.7606669101231583e-07
+          }
+        },
+        {
+          "probe": "axis_top_rotated",
+          "position_m": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "computable": true,
+          "per_coil_world_T": {
+            "loop_a": [
+              0.0,
+              0.0,
+              5.3259413223888486e-08
+            ],
+            "loop_b": [
+              0.0,
+              0.0,
+              -8.803334550615792e-08
+            ]
+          },
+          "total_world_T": [
+            0.0,
+            0.0,
+            -3.477393228226943e-08
+          ],
+          "total_local_T": [
+            0.0,
+            0.0,
+            -3.477393228226943e-08
+          ],
+          "magnitude_T": 3.477393228226943e-08,
+          "delta_vs_baseline": {
+            "world_T": [
+              0.0,
+              0.0,
+              -1.7606669101231583e-07
+            ],
+            "local_T": [
+              0.0,
+              0.0,
+              -1.7606669101231583e-07
+            ],
+            "world_delta_magnitude_T": 1.7606669101231583e-07
+          }
+        }
+      ]
+    },
+    {
+      "name": "both_half",
+      "currents_A": {
+        "loop_a": 2.0,
+        "loop_b": 2.0
+      },
+      "points": [
+        {
+          "probe": "axis_top",
+          "position_m": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "computable": true,
+          "per_coil_world_T": {
+            "loop_a": [
+              0.0,
+              0.0,
+              2.6629706611944243e-08
+            ],
+            "loop_b": [
+              0.0,
+              0.0,
+              4.401667275307896e-08
+            ]
+          },
+          "total_world_T": [
+            0.0,
+            0.0,
+            7.06463793650232e-08
+          ],
+          "total_local_T": [
+            0.0,
+            0.0,
+            7.06463793650232e-08
+          ],
+          "magnitude_T": 7.06463793650232e-08,
+          "delta_vs_baseline": {
+            "world_T": [
+              0.0,
+              0.0,
+              -7.06463793650232e-08
+            ],
+            "local_T": [
+              0.0,
+              0.0,
+              -7.06463793650232e-08
+            ],
+            "world_delta_magnitude_T": 7.06463793650232e-08
+          }
+        },
+        {
+          "probe": "axis_top_rotated",
+          "position_m": [
+            0.0,
+            0.0,
+            3.0
+          ],
+          "computable": true,
+          "per_coil_world_T": {
+            "loop_a": [
+              0.0,
+              0.0,
+              2.6629706611944243e-08
+            ],
+            "loop_b": [
+              0.0,
+              0.0,
+              4.401667275307896e-08
+            ]
+          },
+          "total_world_T": [
+            0.0,
+            0.0,
+            7.06463793650232e-08
+          ],
+          "total_local_T": [
+            0.0,
+            0.0,
+            7.06463793650232e-08
+          ],
+          "magnitude_T": 7.06463793650232e-08,
+          "delta_vs_baseline": {
+            "world_T": [
+              0.0,
+              0.0,
+              -7.06463793650232e-08
+            ],
+            "local_T": [
+              0.0,
+              0.0,
+              -7.06463793650232e-08
+            ],
+            "world_delta_magnitude_T": 7.06463793650232e-08
+          }
+        }
+      ]
+    }
+  ]
+}

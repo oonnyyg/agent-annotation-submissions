@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    {"name": "b_reversed", "currents": {"loop_b": -4.0}},
+    {"name": "both_half", "currents": {"loop_a": 2.0, "loop_b": 2.0}}
+  ]
+}
