@@ -1,0 +1,9 @@
+{
+  "polygon": [[-1, 0], [1, 0], [1, 1], [-1, 1]],
+  "center_of_gravity": [0.0, 0.5],
+  "unit_length_mass": 1.0,
+  "fluid_density": 1.0,
+  "gravity": 9.81,
+  "angles_deg": [0, 10, 20, 30, 45],
+  "moment_neutral_tolerance": 1e-9
+}
