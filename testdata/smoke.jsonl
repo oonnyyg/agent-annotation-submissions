@@ -1,0 +1,9 @@
+{"op":"create_order","order_id":"PO1","line_id":"L1","supplier":"SUP","item":"widget","qty":10,"unit_price":250}
+{"op":"receive","receipt_id":"R1","order_id":"PO1","line_id":"L1","date":"2026-01-05","qty":4}
+{"op":"receive","receipt_id":"R2","order_id":"PO1","line_id":"L1","date":"2026-01-10","qty":6}
+{"op":"invoice","invoice_id":"INV1","lines":[{"order_id":"PO1","line_id":"L1","qty":5,"unit_price":250}]}
+{"op":"query_balance","order_id":"PO1","line_id":"L1"}
+{"op":"return","return_id":"RET1","receipt_id":"R1","qty":1}
+{"op":"query_invoice","invoice_id":"INV1"}
+{"op":"void_invoice","invoice_id":"INV1"}
+{"op":"query_balance","order_id":"PO1","line_id":"L1"}
