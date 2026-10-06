@@ -3,3 +3,6 @@ name = "closed-network-mva"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+closed-mva = "closed_mva.cli:main"
