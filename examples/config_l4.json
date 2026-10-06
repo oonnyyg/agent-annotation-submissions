@@ -1,0 +1,13 @@
+{
+  "size": 4,
+  "coupling": 1.0,
+  "field": 0.0,
+  "seed": 20261004,
+  "initial_spins": "all_up",
+  "temperatures": [
+    {"temperature": 1.5, "thermalization_sweeps": 200, "sample_every": 2, "n_samples": 2000},
+    {"temperature": 2.0, "thermalization_sweeps": 200, "sample_every": 2, "n_samples": 2000},
+    {"temperature": 2.269, "thermalization_sweeps": 200, "sample_every": 2, "n_samples": 2000},
+    {"temperature": 3.0, "thermalization_sweeps": 200, "sample_every": 2, "n_samples": 2000}
+  ]
+}
