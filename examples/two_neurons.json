@@ -1,0 +1,33 @@
+{
+  "dt": 0.5,
+  "steps": 40,
+  "neurons": [
+    {
+      "name": "exc",
+      "tau": 10.0,
+      "threshold": 1.0,
+      "reset": 0.0,
+      "v0": 0.0,
+      "refractory_steps": 2,
+      "stimulus": [
+        {"start": 0.0, "end": 10.0, "v_eq": 2.5},
+        {"start": 10.0, "end": 20.0, "v_eq": 0.2}
+      ]
+    },
+    {
+      "name": "inh",
+      "tau": 8.0,
+      "threshold": 0.8,
+      "reset": -0.2,
+      "v0": -0.2,
+      "refractory_steps": 0,
+      "stimulus": [
+        {"start": 0.0, "end": 20.0, "v_eq": 0.0}
+      ]
+    }
+  ],
+  "connections": [
+    {"from": "exc", "to": "inh", "weight": 0.9, "delay": 2},
+    {"from": "inh", "to": "exc", "weight": -0.6, "delay": 3}
+  ]
+}
