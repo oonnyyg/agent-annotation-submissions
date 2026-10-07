@@ -1,0 +1,30 @@
+{
+  "params": ["int"],
+  "locals": [
+    { "name": "n", "type": "int" },
+    { "name": "acc", "type": "int" },
+    { "name": "i", "type": "int" }
+  ],
+  "code": [
+    { "op": "store", "arg": 0 },
+    { "op": "push_int", "arg": 0 },
+    { "op": "store", "arg": 1 },
+    { "op": "push_int", "arg": 1 },
+    { "op": "store", "arg": 2 },
+    { "op": "load", "arg": 2 },
+    { "op": "load", "arg": 0 },
+    { "op": "le" },
+    { "op": "jmp_if_not", "arg": 18 },
+    { "op": "load", "arg": 1 },
+    { "op": "load", "arg": 2 },
+    { "op": "add" },
+    { "op": "store", "arg": 1 },
+    { "op": "load", "arg": 2 },
+    { "op": "push_int", "arg": 1 },
+    { "op": "add" },
+    { "op": "store", "arg": 2 },
+    { "op": "jmp", "arg": 5 },
+    { "op": "load", "arg": 1 },
+    { "op": "halt" }
+  ]
+}
