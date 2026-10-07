@@ -1,0 +1,44 @@
+{
+  "angles": {
+    "count": 48,
+    "range_degrees": [
+      0.0,
+      180.0
+    ],
+    "right_endpoint_included": false,
+    "step_degrees": 3.75
+  },
+  "detector": {
+    "coordinate_range": [
+      -7.75,
+      7.75
+    ],
+    "count": 32,
+    "spacing": 0.5
+  },
+  "filter": {
+    "frequency_units": "cycles per unit length",
+    "max_normalization": false,
+    "multiplier": "abs(frequency)",
+    "name": "ramp",
+    "padded_length": 64,
+    "zero_padding_factor": 2.0
+  },
+  "image": {
+    "nx": 32,
+    "ny": 32,
+    "pixel_size": 0.25,
+    "x_range": [
+      -3.875,
+      3.875
+    ],
+    "y_range": [
+      -3.875,
+      3.875
+    ]
+  },
+  "statistics": {
+    "max": 0.9871099573108962,
+    "min": -0.033505053765467474
+  }
+}
