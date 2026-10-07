@@ -1,0 +1,6 @@
+{"id":"b1","ts":"2026-01-05T09:30:00Z","type":"buy","qty":"10","amount_cents":100000,"fee_cents":100}
+{"id":"b2","ts":"2026-01-12T09:30:00Z","type":"buy","qty":"2.5","amount_cents":30000,"fee_cents":50}
+{"id":"s1","ts":"2026-02-01T15:00:00Z","type":"sell","qty":"4","amount_cents":52000,"fee_cents":80}
+{"id":"x1","ts":"2026-03-01T00:00:00Z","type":"split","ratio":"3/2"}
+{"id":"s2","ts":"2026-03-10T10:00:00Z","type":"sell","qty":"3","amount_cents":40000,"method":"explicit","allocations":[{"lot":"b2","qty":"3"}]}
+{"id":"bad1","ts":"2026-03-11T10:00:00Z","type":"sell","qty":"99","amount_cents":1}
