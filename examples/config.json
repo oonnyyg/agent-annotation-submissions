@@ -1,0 +1,9 @@
+{
+  "measurement_variance": 0.5,
+  "acceleration_variance": 0.1,
+  "initial_velocity_variance": 10.0,
+  "gate_threshold": 9.0,
+  "missed_penalty": 4.0,
+  "new_track_penalty": 4.0,
+  "max_missed": 2
+}

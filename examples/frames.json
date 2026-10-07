@@ -1,0 +1,6 @@
+[
+  {"time": 0.0, "observations": [{"id": "a", "x": 0.0, "y": 0.0}, {"id": "b", "x": 4.0, "y": 1.0}]},
+  {"time": 1.0, "observations": [{"id": "c", "x": 1.0, "y": 0.0}, {"id": "d", "x": 3.0, "y": 1.0}]},
+  {"time": 2.0, "observations": []},
+  {"time": 3.0, "observations": [{"id": "e", "x": 3.0, "y": 0.0}, {"id": "f", "x": 1.0, "y": 1.0}]}
+]
