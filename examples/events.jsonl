@@ -1,0 +1,9 @@
+{"op":"request","route":"R1"}
+{"op":"request","route":"R2"}
+{"op":"enter","train":"T1","route":"R1"}
+{"op":"advance","train":"T1"}
+{"op":"set_switch","switch":"W1","position":"reverse"}
+{"op":"snapshot"}
+{"op":"advance","train":"T1"}
+{"op":"advance","train":"T1"}
+{"op":"snapshot"}

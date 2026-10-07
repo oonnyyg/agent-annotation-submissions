@@ -1,0 +1,8 @@
+{
+  "sections": ["A", "B", "C"],
+  "switches": {"W1": "normal"},
+  "routes": [
+    {"id": "R1", "sections": ["A", "B", "C"], "switches": {"W1": "normal"}},
+    {"id": "R2", "sections": ["C"], "switches": {"W1": "reverse"}}
+  ]
+}
