@@ -3,3 +3,6 @@ name = "erasure-stripe-recovery"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+erasure-stripe = "erasure_stripe.cli:main"
