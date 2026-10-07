@@ -1,0 +1,9 @@
+{
+  "unit": "deg",
+  "components": [
+    {"weight": 0.6, "mu": 10.0, "kappa": 3.0},
+    {"weight": 0.4, "mu": 170.0, "kappa": 3.0}
+  ],
+  "tolerance": 1e-10,
+  "max_iterations": 500
+}
