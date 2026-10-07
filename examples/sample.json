@@ -1,0 +1,15 @@
+{
+  "minFloor": 1,
+  "maxFloor": 6,
+  "startFloor": 1,
+  "capacity": 2,
+  "travelTimePerFloor": 2,
+  "dwellTime": 3,
+  "passengers": [
+    { "id": "p1", "arrive": 0, "from": 1, "to": 5 },
+    { "id": "p2", "arrive": 0, "from": 2, "to": 4 },
+    { "id": "p3", "arrive": 1, "from": 2, "to": 6 },
+    { "id": "p4", "arrive": 4, "from": 6, "to": 1 },
+    { "id": "p5", "arrive": 10, "from": 3, "to": 1 }
+  ]
+}
