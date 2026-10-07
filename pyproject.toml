@@ -3,3 +3,10 @@ name = "ranked-set-enrichment"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+ranked-set-enrichment = "ranked_set_enrichment.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

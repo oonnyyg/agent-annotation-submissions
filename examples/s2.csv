@@ -1,0 +1,4 @@
+set,status,reason,enrichment_score,peak_position,member_count,ignored_members,p_value,q_value
+top_set,ok,,1,3,4,ghost,0.00199601,0.00199601
+bottom_set,ok,,-1,15,4,,0.00199601,0.00199601
+empty_set,not_computable,no members present in the ranked list after filtering,,,0,x1;x2,,
