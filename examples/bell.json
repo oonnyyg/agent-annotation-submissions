@@ -1,0 +1,8 @@
+{
+  "qubits": 2,
+  "classical_bits": 0,
+  "ops": [
+    {"gate": "H", "qubit": 1},
+    {"gate": "CX", "control": 1, "target": 0}
+  ]
+}

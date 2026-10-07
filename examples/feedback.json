@@ -1,0 +1,10 @@
+{
+  "qubits": 2,
+  "classical_bits": 1,
+  "ops": [
+    {"gate": "H", "qubit": 0},
+    {"gate": "MEASURE", "qubit": 0, "classical_bit": 0},
+    {"gate": "X", "qubit": 1, "condition": {"bit": 0, "value": 1}},
+    {"gate": "CX", "control": 1, "target": 0, "condition": {"bit": 0, "value": 1}}
+  ]
+}
