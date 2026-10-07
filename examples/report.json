@@ -1,0 +1,115 @@
+{
+  "points": {
+    "a": [
+      0.0,
+      0.0
+    ],
+    "b": [
+      1.0,
+      0.0
+    ],
+    "c": [
+      5.0,
+      0.0
+    ],
+    "d": [
+      5.0,
+      0.0
+    ]
+  },
+  "intervals": [
+    {
+      "id": "a",
+      "birth": 0.0,
+      "death": "Infinity"
+    },
+    {
+      "id": "b",
+      "birth": 0.0,
+      "death": 1.0
+    },
+    {
+      "id": "c",
+      "birth": 0.0,
+      "death": 4.0
+    },
+    {
+      "id": "d",
+      "birth": 0.0,
+      "death": 0.0
+    }
+  ],
+  "merges": [
+    {
+      "distance": 0.0,
+      "died": "d",
+      "survivor": "c"
+    },
+    {
+      "distance": 1.0,
+      "died": "b",
+      "survivor": "a"
+    },
+    {
+      "distance": 4.0,
+      "died": "c",
+      "survivor": "a"
+    }
+  ],
+  "queries": [
+    {
+      "threshold": 0.0,
+      "component_count": 3,
+      "components": [
+        [
+          "a"
+        ],
+        [
+          "b"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ]
+    },
+    {
+      "threshold": 1.0,
+      "component_count": 2,
+      "components": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ]
+    },
+    {
+      "threshold": 4.0,
+      "component_count": 1,
+      "components": [
+        [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      ]
+    },
+    {
+      "threshold": 10.0,
+      "component_count": 1,
+      "components": [
+        [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      ]
+    }
+  ]
+}
