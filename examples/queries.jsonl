@@ -1,0 +1,3 @@
+{"targets": ["Burglary"], "evidence": {"JohnCalls": "yes", "MaryCalls": "yes"}}
+{"targets": ["Alarm"], "evidence": {}}
+{"targets": ["Burglary", "Earthquake"], "evidence": {"Alarm": "on"}, "elimination_order": ["JohnCalls", "MaryCalls"]}

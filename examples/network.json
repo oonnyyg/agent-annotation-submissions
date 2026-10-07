@@ -1,0 +1,45 @@
+{
+  "variables": [
+    {
+      "name": "Burglary",
+      "states": ["no", "yes"],
+      "parents": [],
+      "cpt": [{"when": [], "probs": {"no": 0.999, "yes": 0.001}}]
+    },
+    {
+      "name": "Earthquake",
+      "states": ["no", "yes"],
+      "parents": [],
+      "cpt": [{"when": [], "probs": {"no": 0.998, "yes": 0.002}}]
+    },
+    {
+      "name": "Alarm",
+      "states": ["off", "on"],
+      "parents": ["Burglary", "Earthquake"],
+      "cpt": [
+        {"when": ["no", "no"], "probs": {"off": 0.999, "on": 0.001}},
+        {"when": ["no", "yes"], "probs": {"off": 0.71, "on": 0.29}},
+        {"when": ["yes", "no"], "probs": {"off": 0.06, "on": 0.94}},
+        {"when": ["yes", "yes"], "probs": {"off": 0.05, "on": 0.95}}
+      ]
+    },
+    {
+      "name": "JohnCalls",
+      "states": ["no", "yes"],
+      "parents": ["Alarm"],
+      "cpt": [
+        {"when": ["off"], "probs": {"no": 0.95, "yes": 0.05}},
+        {"when": ["on"], "probs": {"no": 0.1, "yes": 0.9}}
+      ]
+    },
+    {
+      "name": "MaryCalls",
+      "states": ["no", "yes"],
+      "parents": ["Alarm"],
+      "cpt": [
+        {"when": ["off"], "probs": {"no": 0.99, "yes": 0.01}},
+        {"when": ["on"], "probs": {"no": 0.3, "yes": 0.7}}
+      ]
+    }
+  ]
+}
