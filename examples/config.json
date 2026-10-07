@@ -1,0 +1,7 @@
+{
+  "linkRateBytesPerSec": 1000,
+  "streams": [
+    { "id": "alpha", "quantum": 100, "maxWaitingBytes": 300 },
+    { "id": "beta", "quantum": 150, "maxWaitingBytes": 200 }
+  ]
+}

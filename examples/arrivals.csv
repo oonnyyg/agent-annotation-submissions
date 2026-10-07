@@ -1,0 +1,7 @@
+time,stream,packet,length
+0,alpha,a1,120
+0,beta,b1,80
+0.1,alpha,a2,250
+0.1,beta,b2,150
+0.2,beta,b3,60
+1.5,alpha,a3,90
