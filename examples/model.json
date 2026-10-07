@@ -1,0 +1,8 @@
+﻿{
+  "name": "two-segment-demo",
+  "material": {"elastic_modulus": 200000.0, "yield_strength": 250.0, "hardening_modulus": 2000.0},
+  "segments": [
+    {"length": 1.0, "area": 100.0},
+    {"length": 2.0, "area": 200.0, "material": {"elastic_modulus": 200000.0, "yield_strength": 300.0, "hardening_modulus": 2000.0}}
+  ]
+}

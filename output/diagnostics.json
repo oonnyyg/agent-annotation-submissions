@@ -1,0 +1,63 @@
+{
+  "model": "two-segment-demo",
+  "segment_count": 2,
+  "total_steps": 3,
+  "completed": false,
+  "failed_step": 2,
+  "tolerance": 1e-10,
+  "max_iterations": 1,
+  "steps": [
+    {
+      "step": 0,
+      "prescribed_displacement": 0.0,
+      "converged": true,
+      "iterations": 0,
+      "reaction_force": -0.0,
+      "axial_force": 0.0,
+      "force_imbalance": 0.0,
+      "compatibility_residual": 0.0
+    },
+    {
+      "step": 1,
+      "prescribed_displacement": 0.002,
+      "converged": true,
+      "iterations": 1,
+      "reaction_force": -20000.0,
+      "axial_force": 20000.0,
+      "force_imbalance": 0.0,
+      "compatibility_residual": 0.0
+    },
+    {
+      "step": 2,
+      "prescribed_displacement": 0.01,
+      "converged": false,
+      "iterations": 1,
+      "reaction_force": null,
+      "axial_force": null,
+      "force_imbalance": 35430.013589594244,
+      "compatibility_residual": null
+    }
+  ],
+  "final_state": {
+    "step": 1,
+    "node_displacements": [
+      0.0,
+      0.001,
+      0.002
+    ],
+    "segments": [
+      {
+        "plastic_strain": 0.0,
+        "accumulated_plastic_strain": 0.0,
+        "stress": 200.0,
+        "strain": 0.001
+      },
+      {
+        "plastic_strain": 0.0,
+        "accumulated_plastic_strain": 0.0,
+        "stress": 100.0,
+        "strain": 0.0005
+      }
+    ]
+  }
+}

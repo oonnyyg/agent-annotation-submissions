@@ -1,0 +1,5 @@
+step,segment,strain,stress,axial_force,plastic_strain,accumulated_plastic_strain,yielded
+0,0,0.0,0.0,0.0,0.0,0.0,0
+0,1,0.0,0.0,0.0,0.0,0.0,0
+1,0,0.001,200.0,20000.0,0.0,0.0,0
+1,1,0.0005,100.0,20000.0,0.0,0.0,0
