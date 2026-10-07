@@ -1,0 +1,31 @@
+{
+  "zones": [
+    { "id": "outdoor", "outdoor": true },
+    { "id": "lobby", "capacity": 2 },
+    { "id": "lab", "capacity": 1 }
+  ],
+  "people": [
+    { "id": "alice", "initial_zone": "outdoor" },
+    { "id": "bob", "initial_zone": "outdoor" },
+    { "id": "carol", "initial_zone": "outdoor" }
+  ],
+  "credentials": [
+    { "id": "card-a1", "person": "alice", "enabled": true,
+      "valid_from": "2026-01-01T00:00:00Z", "valid_to": "2027-01-01T00:00:00Z",
+      "zones": ["lobby", "lab"] },
+    { "id": "card-a2", "person": "alice", "enabled": true,
+      "valid_from": "2026-01-01T00:00:00Z", "valid_to": "2027-01-01T00:00:00Z",
+      "zones": ["lobby"] },
+    { "id": "card-b1", "person": "bob", "enabled": true,
+      "valid_from": "2026-01-01T00:00:00Z", "valid_to": "2026-06-01T00:00:00Z",
+      "zones": ["lobby", "lab"] },
+    { "id": "card-c1", "person": "carol", "enabled": false,
+      "valid_from": "2026-01-01T00:00:00Z", "valid_to": "2027-01-01T00:00:00Z",
+      "zones": ["lobby"] }
+  ],
+  "readers": [
+    { "id": "r-in", "from": "outdoor", "to": "lobby" },
+    { "id": "r-out", "from": "lobby", "to": "outdoor" },
+    { "id": "r-lab", "from": "lobby", "to": "lab" }
+  ]
+}

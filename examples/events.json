@@ -1,0 +1,9 @@
+[
+  { "time": "2026-03-01T08:00:00Z", "type": "swipe", "credential": "card-a1", "reader": "r-in" },
+  { "time": "2026-03-01T08:01:00Z", "type": "swipe", "credential": "card-b1", "reader": "r-in" },
+  { "time": "2026-03-01T08:02:00Z", "type": "swipe", "credential": "card-c1", "reader": "r-in" },
+  { "time": "2026-03-01T09:00:00Z", "type": "swipe", "credential": "card-a1", "reader": "r-lab" },
+  { "time": "2026-03-01T09:00:00Z", "type": "swipe", "credential": "card-b1", "reader": "r-lab" },
+  { "time": "2026-03-01T10:00:00Z", "type": "correct", "person": "carol", "to": "lobby", "reason": "guard escort after lost badge" },
+  { "time": "2026-03-01T11:00:00Z", "type": "swipe", "credential": "card-a2", "reader": "r-out" }
+]
