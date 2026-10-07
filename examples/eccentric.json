@@ -1,0 +1,15 @@
+{
+  "width": 10.0,
+  "height": 10.0,
+  "restitution": 0.9,
+  "friction": 0.4,
+  "t_end": 4.0,
+  "sample_dt": 0.25,
+  "max_events": 1000,
+  "disks": [
+    {"x": 3.0, "y": 4.0, "vx": 2.0, "vy": 0.0, "omega": 1.0,
+     "mass": 1.0, "radius": 1.0},
+    {"x": 6.0, "y": 5.5, "vx": 0.0, "vy": 0.0, "omega": 0.0,
+     "mass": 1.0, "radius": 1.0}
+  ]
+}
