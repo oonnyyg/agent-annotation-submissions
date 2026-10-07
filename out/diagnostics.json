@@ -1,0 +1,25 @@
+{
+  "ellipsoid": {
+    "semi_major_axis": 6378137.0,
+    "flattening": 0.0033528106647474805
+  },
+  "sample_interval": 500000.0,
+  "tolerance": 1e-12,
+  "max_iterations": 200,
+  "routes": {
+    "demo": {
+      "status": "ok",
+      "waypoint_count": 4,
+      "segment_count": 3,
+      "total_distance_m": 7976188.010760877,
+      "sample_count": 17
+    },
+    "dateline": {
+      "status": "ok",
+      "waypoint_count": 2,
+      "segment_count": 1,
+      "total_distance_m": 109639.32210561473,
+      "sample_count": 2
+    }
+  }
+}
