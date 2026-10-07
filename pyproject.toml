@@ -3,3 +3,6 @@ name = "clifford-shot-simulator"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+clifford-shot-simulator = "quantum_sim.__main__:main"

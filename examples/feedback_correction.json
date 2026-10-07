@@ -1,0 +1,13 @@
+{
+  "num_qubits": 1,
+  "num_classical_bits": 1,
+  "operations": [
+    {"gate": "H", "qubit": 0},
+    {"gate": "measure", "qubit": 0, "classical_bit": 0},
+    {
+      "gate": "X",
+      "qubit": 0,
+      "condition": {"classical_bit": 0, "equals": 1}
+    }
+  ]
+}

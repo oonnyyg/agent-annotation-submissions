@@ -1,0 +1,8 @@
+{
+  "num_qubits": 1,
+  "operations": [
+    {"gate": "X", "qubit": 0},
+    {"gate": "S", "qubit": 0},
+    {"gate": "H", "qubit": 0}
+  ]
+}
