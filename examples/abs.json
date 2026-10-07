@@ -1,0 +1,15 @@
+{
+  "locals": ["int"],
+  "code": [
+    {"op": "load", "var": 0},
+    {"op": "push_int", "value": 0},
+    {"op": "lt"},
+    {"op": "jmp_if_not", "target": 8},
+    {"op": "push_int", "value": 0},
+    {"op": "load", "var": 0},
+    {"op": "sub"},
+    {"op": "halt"},
+    {"op": "load", "var": 0},
+    {"op": "halt"}
+  ]
+}
