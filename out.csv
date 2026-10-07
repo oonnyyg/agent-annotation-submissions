@@ -1,0 +1,5 @@
+sample,ok,error,tool_x,tool_y,tool_z,vx,vy,vz,wx,wy,wz,jac_check_max_abs_error,jac_check_within_tolerance
+home,true,,0,0.35,0.4,0,0,0,0,0,0,2.87556645e-11,true
+reach,true,,-0.103432072,0.334367771,0.55,-0.167183886,-0.0517160362,0.1,0,0,0.5,2.67554867e-11,true
+at-lower-limit,true,,-0.103432072,0.334367771,0.3,0,0,0.2,0,0,0,2.67554867e-11,true
+out-of-travel,false,"joint 1 (""lift""): position 0.6 (with offset 0) out of limits [0, 0.5]",,,,,,,,,,,
