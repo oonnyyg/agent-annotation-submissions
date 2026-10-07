@@ -1,0 +1,7 @@
+{
+  "turnaround_min": 10,
+  "arcs": [
+    {"from": "X", "to": "Y", "time_min": 5, "distance_km": 5},
+    {"from": "Y", "to": "X", "time_min": 5, "distance_km": 5}
+  ]
+}
