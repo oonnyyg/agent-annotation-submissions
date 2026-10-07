@@ -1,0 +1,31 @@
+{
+  "dt": 0.5,
+  "duration": 20.0,
+  "neurons": [
+    {
+      "name": "exc",
+      "tau": 8.0,
+      "threshold": -50.0,
+      "reset": -65.0,
+      "initial": -70.0,
+      "refractory_steps": 2
+    },
+    {
+      "name": "inh",
+      "tau": 4.0,
+      "threshold": -52.0,
+      "reset": -60.0,
+      "initial": -65.0,
+      "refractory_steps": 1
+    }
+  ],
+  "synapses": [
+    {"source": "exc", "target": "inh", "weight": 12.0, "delay_steps": 2},
+    {"source": "inh", "target": "exc", "weight": -8.0, "delay_steps": 1},
+    {"source": "exc", "target": "exc", "weight": 3.0, "delay_steps": 3}
+  ],
+  "stimulus": {
+    "exc": [[0.0, 8.0, -35.0], [8.0, 20.0, -58.0]],
+    "inh": [[0.0, 20.0, -62.0]]
+  }
+}
