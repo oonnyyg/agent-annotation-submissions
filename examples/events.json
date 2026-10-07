@@ -1,0 +1,9 @@
+{
+  "events": [
+    {"kind": "swipe", "swipe": {"time": "2026-06-10T08:00:00Z", "credential": "card-a1", "reader": "r-in"}},
+    {"kind": "swipe", "swipe": {"time": "2026-06-10T08:05:00Z", "credential": "card-b1", "reader": "r-in"}},
+    {"kind": "swipe", "swipe": {"time": "2026-06-10T08:10:00Z", "credential": "card-a1", "reader": "r-lab"}},
+    {"kind": "correction", "correction": {"time": "2026-06-10T09:00:00Z", "person": "bob", "to": "lobby", "reason": "guard escort"}},
+    {"kind": "swipe", "swipe": {"time": "2026-06-10T09:30:00Z", "credential": "card-a2", "reader": "r-out"}}
+  ]
+}
