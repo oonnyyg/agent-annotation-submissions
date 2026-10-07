@@ -3,3 +3,6 @@ name = "morse-audio-decoder"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+morse-decoder = "morse_decoder.cli:main"
