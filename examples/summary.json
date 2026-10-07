@@ -1,0 +1,227 @@
+{
+  "plan": {
+    "plan_id": "demo",
+    "p0": 0.3,
+    "p1": 0.6,
+    "lower": -2.0,
+    "upper": 2.0,
+    "max_observations": 30,
+    "true_p": 0.55
+  },
+  "series": {
+    "alpha": {
+      "decision": "accept_alternative",
+      "stop_reason": "upper_bound_reached",
+      "used": 5,
+      "unused": 1,
+      "stop_position": 5,
+      "final_llr": 2.2129729343043585
+    },
+    "beta": {
+      "decision": "undecided",
+      "stop_reason": "data_exhausted",
+      "used": 5,
+      "unused": 0,
+      "stop_position": 5,
+      "final_llr": -1.5453159711817448
+    },
+    "gamma": {
+      "decision": "undecided",
+      "stop_reason": "data_exhausted",
+      "used": 2,
+      "unused": 0,
+      "stop_position": 2,
+      "final_llr": 0.13353139262452274
+    }
+  },
+  "exact_analysis": {
+    "true_p": 0.55,
+    "prob_stop_null": 0.17262657082065885,
+    "prob_stop_alternative": 0.7924056896786404,
+    "prob_undecided_at_cap": 0.03496773950070055,
+    "expected_sample_size": 10.787236700604417,
+    "total_probability": 0.9999999999999999,
+    "per_step": [
+      {
+        "step": 1,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 1.0
+      },
+      {
+        "step": 2,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 1.0
+      },
+      {
+        "step": 3,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.16637500000000005,
+        "prob_running": 0.833625
+      },
+      {
+        "step": 4,
+        "prob_stop_null": 0.04100624999999998,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.7926187499999999
+      },
+      {
+        "step": 5,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.12353343750000001,
+        "prob_running": 0.6690853124999999
+      },
+      {
+        "step": 6,
+        "prob_stop_null": 0.040596187499999985,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.628489125
+      },
+      {
+        "step": 7,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.09172357734375002,
+        "prob_running": 0.53676554765625
+      },
+      {
+        "step": 8,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.53676554765625
+      },
+      {
+        "step": 9,
+        "prob_stop_null": 0.015824901339843742,
+        "prob_stop_alternative": 0.0706271545546875,
+        "prob_running": 0.4503134917617187
+      },
+      {
+        "step": 10,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.4503134917617187
+      },
+      {
+        "step": 11,
+        "prob_stop_null": 0.017065460569877924,
+        "prob_stop_alternative": 0.05556213024833497,
+        "prob_running": 0.3776859009435058
+      },
+      {
+        "step": 12,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.08034658610068214,
+        "prob_running": 0.29733931484282367
+      },
+      {
+        "step": 13,
+        "prob_stop_null": 0.015925431851480338,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.28141388299134334
+      },
+      {
+        "step": 14,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.045334016080654106,
+        "prob_running": 0.23607986691068922
+      },
+      {
+        "step": 15,
+        "prob_stop_null": 0.014155285480684275,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.22192458143000496
+      },
+      {
+        "step": 16,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.03269681144467423,
+        "prob_running": 0.18922776998533072
+      },
+      {
+        "step": 17,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.18922776998533072
+      },
+      {
+        "step": 18,
+        "prob_stop_null": 0.005535085071661636,
+        "prob_stop_alternative": 0.025018481542336348,
+        "prob_running": 0.15867420337133273
+      },
+      {
+        "step": 19,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.15867420337133273
+      },
+      {
+        "step": 20,
+        "prob_stop_null": 0.00598708202726355,
+        "prob_stop_alternative": 0.019630372048373063,
+        "prob_running": 0.1330567492956961
+      },
+      {
+        "step": 21,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.028351034643399154,
+        "prob_running": 0.10470571465229696
+      },
+      {
+        "step": 22,
+        "prob_stop_null": 0.0055968044910575795,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.09910891016123938
+      },
+      {
+        "step": 23,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.015979647550290885,
+        "prob_running": 0.0831292626109485
+      },
+      {
+        "step": 24,
+        "prob_stop_null": 0.004979460704266642,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.07814980190668186
+      },
+      {
+        "step": 25,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.011519214808255329,
+        "prob_running": 0.06663058709842654
+      },
+      {
+        "step": 26,
+        "prob_stop_null": 0.0043291853262807396,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.06230140177214579
+      },
+      {
+        "step": 27,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.008811736435004927,
+        "prob_running": 0.05348966533714086
+      },
+      {
+        "step": 28,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.0,
+        "prob_running": 0.05348966533714086
+      },
+      {
+        "step": 29,
+        "prob_stop_null": 0.0016254364582424649,
+        "prob_stop_alternative": 0.006913046613829449,
+        "prob_running": 0.04495118226506895
+      },
+      {
+        "step": 30,
+        "prob_stop_null": 0.0,
+        "prob_stop_alternative": 0.009983442764368402,
+        "prob_running": 0.03496773950070055
+      }
+    ]
+  }
+}

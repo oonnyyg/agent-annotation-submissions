@@ -1,0 +1,9 @@
+{
+  "plan_id": "demo",
+  "p0": 0.3,
+  "p1": 0.6,
+  "lower": -2.0,
+  "upper": 2.0,
+  "max_observations": 30,
+  "true_p": 0.55
+}
