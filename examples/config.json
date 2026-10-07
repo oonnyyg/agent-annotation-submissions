@@ -1,0 +1,9 @@
+{
+  "unit": "degrees",
+  "tolerance": 1e-10,
+  "max_iterations": 500,
+  "components": [
+    {"weight": 0.5, "mu": 355.0, "kappa": 5.0},
+    {"weight": 0.5, "mu": 185.0, "kappa": 5.0}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "converged": true,
+  "status": "converged",
+  "message": "converged: log-likelihood stabilized",
+  "iterations": 3,
+  "log_likelihood": 3.394555825662991,
+  "log_likelihood_history": [
+    -8.97127574448193,
+    3.394555825494952,
+    3.394555825662991,
+    3.394555825662991
+  ],
+  "unit": "degrees",
+  "components": [
+    {
+      "weight": 0.47619047619047616,
+      "mu_radians": 3.149621621546385,
+      "mu_degrees": 180.46002597775848,
+      "kappa": 50.0
+    },
+    {
+      "weight": 0.5238095238095238,
+      "mu_radians": 6.28048738489682,
+      "mu_degrees": 359.8454204397432,
+      "kappa": 50.0
+    }
+  ]
+}
