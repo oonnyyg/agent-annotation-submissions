@@ -1,0 +1,45 @@
+{
+  "plan": {
+    "p0": 0.4,
+    "p1": 0.6,
+    "lower": -1.0,
+    "upper": 1.0,
+    "max_observations": 50,
+    "true_p": 0.55
+  },
+  "sequences": [
+    {
+      "sequence_id": "alpha",
+      "decision": "alternative",
+      "reason": "upper_bound_reached",
+      "stop_index": 3,
+      "used": 3,
+      "unused": 2,
+      "final_llr": 1.2163953243244927
+    },
+    {
+      "sequence_id": "beta",
+      "decision": "null",
+      "reason": "lower_bound_reached",
+      "stop_index": 3,
+      "used": 3,
+      "unused": 1,
+      "final_llr": -1.216395324324493
+    },
+    {
+      "sequence_id": "gamma",
+      "decision": "undecided",
+      "reason": "data_exhausted",
+      "stop_index": 2,
+      "used": 2,
+      "unused": 0,
+      "final_llr": -5.551115123125783e-17
+    }
+  ],
+  "exact": {
+    "true_p": 0.55,
+    "undecided_at_max": 0.000788342593450283,
+    "expected_sample": 8.761655584586068,
+    "total_stop_probability": 0.9992116574065498
+  }
+}

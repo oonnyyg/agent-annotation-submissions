@@ -1,0 +1,8 @@
+{
+  "p0": 0.4,
+  "p1": 0.6,
+  "lower": -1.0,
+  "upper": 1.0,
+  "max_observations": 50,
+  "true_p": 0.55
+}
