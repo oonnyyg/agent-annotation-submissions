@@ -1,0 +1,4 @@
+{"id":"b1","time":"2024-01-01T00:00:00Z","type":"buy","quantity":"4","total_cents":40000,"fee_cents":100}
+{"id":"s1","time":"2024-01-02T00:00:00Z","type":"sell","quantity":"1.5","total_cents":18000,"fee_cents":0}
+{"id":"x1","time":"2024-01-03T00:00:00Z","type":"split","ratio":"3/2"}
+{"id":"s2","time":"2024-01-04T00:00:00Z","type":"sell","method":"specific","quantity":"1","total_cents":9000,"fee_cents":10,"allocations":[{"lot":"b1","quantity":"1"}]}
