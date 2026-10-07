@@ -1,0 +1,4 @@
+{
+  "metric": "sqeuclidean",
+  "disabled": [["depot-c", "store-x"]]
+}
