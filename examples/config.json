@@ -1,0 +1,18 @@
+{
+  "elements": [
+    {
+      "length": 100.0,
+      "area": 10.0,
+      "youngs_modulus": 200000.0,
+      "yield_strength": 250.0,
+      "hardening_modulus": 10000.0
+    },
+    {
+      "length": 200.0,
+      "area": 20.0,
+      "youngs_modulus": 200000.0,
+      "yield_strength": 400.0,
+      "hardening_modulus": 10000.0
+    }
+  ]
+}
