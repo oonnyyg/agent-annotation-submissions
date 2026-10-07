@@ -1,0 +1,17 @@
+{
+  "variables": {"A": ["a0", "a1"], "B": ["b0", "b1"], "C": ["c0", "c1"]},
+  "cpt": {
+    "A": {"parents": [], "rows": [
+      {"parent_states": {}, "probs": {"a0": 0.6, "a1": 0.4}}
+    ]},
+    "B": {"parents": [], "rows": [
+      {"parent_states": {}, "probs": {"b0": 0.3, "b1": 0.7}}
+    ]},
+    "C": {"parents": ["A", "B"], "rows": [
+      {"parent_states": {"A": "a0", "B": "b0"}, "probs": {"c0": 0.9, "c1": 0.1}},
+      {"parent_states": {"A": "a0", "B": "b1"}, "probs": {"c0": 0.2, "c1": 0.8}},
+      {"parent_states": {"A": "a1", "B": "b0"}, "probs": {"c0": 0.7, "c1": 0.3}},
+      {"parent_states": {"A": "a1", "B": "b1"}, "probs": {"c0": 0.0, "c1": 1.0}}
+    ]}
+  }
+}

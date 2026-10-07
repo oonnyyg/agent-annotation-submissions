@@ -1,0 +1,4 @@
+{"target": "A", "evidence": {"C": "c1"}}
+{"target": ["A", "B"], "evidence": {"C": "c1"}}
+{"target": "C"}
+{"target": "A", "evidence": {"A": "a0"}}
